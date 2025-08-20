@@ -8,6 +8,7 @@ import Servicios from './pages/Servicios'
 import Contactanos from './pages/Contactanos'
 import PoliticaDatos from './pages/PoliticaDatos'
 import ProteccionDatos from './pages/ProteccionDatos'
+import TyCPasajerosApp from "./pages/TyCPasajerosApp"
 
 
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/contactanos" element={<Contactanos />} />
             <Route path="/politica-datos" element={<PoliticaDatos />} />
             <Route path="/proteccion-datos" element={<ProteccionDatos />} />
+            <Route path="/terminos-y-condiciones" element={<TyCPasajerosApp />} />
           </Routes>
           <MapSection />
         </main>

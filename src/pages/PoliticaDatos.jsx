@@ -26,7 +26,7 @@ export default function PoliticaDatos() {
                             <span className="text-yellow-400">✓</span>
                             <p className="text-lg">
                                 Términos y condiciones generales para el uso del para pasajero(a) del aplicativo. Clic {' '}
-                                <Link to="/TyCPasajerosApp" className="font-bold underline hover:text-yellow-600">
+                                <Link to="/terminos-y-condiciones" className="font-bold underline hover:text-yellow-600">
                                     aquí
                                 </Link>
                             </p>

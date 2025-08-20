@@ -8,9 +8,9 @@ export default function Header() {
             <nav className="flex flex-col md:flex-row justify-between items-center">
                 <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                     <img 
-                        src="/logoservitaxi.jpg" // Ruta desde la carpeta public
+                        src="/logoservitaxi.jpg"
                         alt="Servitaxi Logo" 
-                        className="w-10 h-10" 
+                        className="w-20 h-13" 
                     />
                     <h1 className="text-2xl font-bold mb-2 md:mb-0">Servitaxi S.A.</h1>
                 </Link>
