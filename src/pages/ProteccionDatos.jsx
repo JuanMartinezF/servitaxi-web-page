@@ -1,12 +1,12 @@
 export default function ProteccionDatos() {
     return (
-        <div className="pt-20 min-h-screen bg-white">
+        <div className="pt-30 min-h-screen bg-white">
             <div className="container mx-auto px-4 py-8">
                 <h1 className="text-4xl font-bold mb-8 text-center">Política de Protección de Datos Personales</h1>
                 
-                <div className="prose max-w-none space-y-6 text-justify">
+                <div className="prose max-w-none space-y-6 text-justify text-xl">
                     <section>
-                        <h2 className="text-gray-600  text-2xl font-bold mb-4 text-center">1. BASE LEGAL Y ÁMBITO DE APLICACIÓN</h2>
+                        <h2 className="text-gray-600  text-3xl font-bold mb-4 text-center">1. BASE LEGAL Y ÁMBITO DE APLICACIÓN</h2>
                         <p>
                             La presente política de tratamiento de datos personales se desarrolla en cumplimiento de los Artículos
                             15 y 20 de la Constitución Política, los Artículos 17 literal k) y 18 literal f) de la Ley Estatutaria
@@ -18,7 +18,7 @@ export default function ProteccionDatos() {
                     </section>
 
                     <section>
-                        <h2 className="text-gray-600 text-center text-2xl font-bold mb-2">2. DEFINICIONES ESTABLECIDAS EN EL ARTÍCULO 3 DE LA L.E.P.D. Y EL ARTÍCULO 3 DEL DECRETO 1377 DE 2013</h2>
+                        <h2 className="text-gray-600 text-center text-3xl font-bold mb-2">2. DEFINICIONES ESTABLECIDAS EN EL ARTÍCULO 3 DE LA L.E.P.D. Y EL ARTÍCULO 3 DEL DECRETO 1377 DE 2013</h2>
                         
                     </section>
                         <ul className="list-disc pl-6 space-y-2">
@@ -82,7 +82,7 @@ export default function ProteccionDatos() {
                         </ul>
 
                     <section>
-                        <h2 className="text-gray-600 text-center text-2xl font-bold mb-4">3. AUTORIZACIONES DE LA POLÍTICA DE TRATAMIENTO</h2>
+                        <h2 className="text-gray-600 text-center text-3xl font-bold mb-4">3. AUTORIZACIONES DE LA POLÍTICA DE TRATAMIENTO</h2>
                         
                     </section>
                         <ul>
@@ -112,7 +112,7 @@ export default function ProteccionDatos() {
                         </ul>
 
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center">4. TRATAMIENTO Y FINALIDADES</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">4. TRATAMIENTO Y FINALIDADES</h2>
                         <p>
                             La empresa TRANSPORTADORA SERVITAXI S.A. es responsable del tratamiento de 
                             las bases de datos sujetas a la presente política. Sus datos de contacto son los siguientes:
@@ -131,7 +131,7 @@ export default function ProteccionDatos() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center">5. TRATAMIENTO Y FINALIDADES DE LAS BASES DE DATOS</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">5. TRATAMIENTO Y FINALIDADES DE LAS BASES DE DATOS</h2>
                         <p>
                             TRANSPORTADORA SERVITAXI S.A. realiza el tratamiento de datos personales de personas naturales en el 
                             marco de su actividad empresarial. Estos datos se encuentran contenidos en bases de datos destinadas a finalidades legítimas, en cumplimiento 
@@ -176,7 +176,7 @@ export default function ProteccionDatos() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center">6. DATOS DE NAVEGACIÓN</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">6. DATOS DE NAVEGACIÓN</h2>
                         <p>
                             Tanto en el Portal Web como las Apps Conductor y Pasajero, de SERVITAXI S.A. se recogen algunos datos personales con el sistema de navegación y el software 
                             necesario para su funcionamiento. Estos datos se transmiten implícitamente mediante los protocolos seguros de comunicación 
@@ -191,7 +191,7 @@ export default function ProteccionDatos() {
                     </section>
 
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center">7. COOKIES O WEB BUGS</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">7. COOKIES O WEB BUGS</h2>
                         <p>
                             En el Portal Web no se utilizan cookies o web bugs para recopilar datos personales del usuario. 
                             Su uso se limita a facilitar el acceso al Portal Web. Las cookies de sesión se utilizan únicamente 
@@ -204,7 +204,7 @@ export default function ProteccionDatos() {
                         </p>
                     </section>
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center">8. DERECHOS DE LOS TITULARES</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">8. DERECHOS DE LOS TITULARES</h2>
                         <p>
                             De acuerdo con el Artículo 8 de la L.E.P.D., los titulares de datos personales tienen los siguientes derechos:
                         </p>
@@ -277,7 +277,7 @@ export default function ProteccionDatos() {
                         </ul>
                     </section>
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center">9. ATENCIÓN A LOS TITULARES DE DATOS</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">9. ATENCIÓN A LOS TITULARES DE DATOS</h2>
                         <h3 className="mb-7">
                             NUBIA FERNANDEZ VARGAS con C.C. 34549181 de Popayán, Cauca.
                         </h3>
@@ -286,10 +286,10 @@ export default function ProteccionDatos() {
                         </p>
                     </section>
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center">10. PROCEDIMIENTO PARA EJERCER DERECHOS DEL TITULAR</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">10. PROCEDIMIENTO PARA EJERCER DERECHOS DEL TITULAR</h2>
                         <div className="space-y-6">
                             <section>
-                                <h3 className="text-xl font-bold mb-4 text-gray-500">10.1. Derecho de acceso o consulta</h3>
+                                <h3 className="text-2xl font-bold mb-4 text-gray-500 ">10.1. Derecho de acceso o consulta</h3>
                                 <p className="mb-4">
                                     Según el Artículo 21 del Decreto 1377 de 2013, el Titular podrá consultar de forma gratuita sus datos personales en dos casos:
                                 </p>
@@ -331,7 +331,7 @@ export default function ProteccionDatos() {
                             </section>
 
                             <section>
-                                <h3 className="text-xl font-bold mb-4  text-gray-500">10.2. Derechos de quejas y reclamos</h3>
+                                <h3 className="text-2xl font-bold mb-4  text-gray-500">10.2. Derechos de quejas y reclamos</h3>
                                 <p className="mb-4">
                                     Según el Artículo 15 de la Ley 1581 de 2012, el Titular o sus causahabientes que consideren que la información contenida en una base de datos debe ser objeto de corrección, actualización o supresión, o cuando adviertan el presunto incumplimiento de cualquiera de los deberes contenidos en la Ley, podrán presentar un reclamo ante el responsable del tratamiento o el encargado del tratamiento. La solicitud deberá contener los siguientes datos:
                                 </p>
@@ -355,7 +355,7 @@ export default function ProteccionDatos() {
                         </div>
                     </section>
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center">11. MEDIDAS DE SEGURIDAD</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">11. MEDIDAS DE SEGURIDAD</h2>
                         <div>
                             <p>
                                TRANSPORTADORA SERVITAXI S.A. con el fin de cumplir con el principio de seguridad consagrado en el Artículo 4, literal g) de la L.E.P.D., ha implementado medidas técnicas, humanas y administrativas necesarias para garantizar la seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento.
@@ -591,7 +591,7 @@ export default function ProteccionDatos() {
                         </div>
                     </section>
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center uppercase">12. Redes Sociales</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center uppercase">12. Redes Sociales</h2>
                         <p>
                             Las redes sociales como Facebook e Instagram, constituyen plataformas complementarias de divulgación de la información (comunicación), las cuales son de gran interconexión de los medios digitales de los usuarios y no se encuentran bajo la responsabilidad de la TRANSPORTADORA SERVITAXI S.A. por ser ajenas a la empresa.
                         </p>
@@ -600,7 +600,7 @@ export default function ProteccionDatos() {
                         </p>
                     </section>
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center uppercase">13. transferencia de datos a terceros países</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center uppercase">13. transferencia de datos a terceros países</h2>
                         <p className="mb-3">De acuerdo con el Título VIII de la L.E.P.D., se prohíbe la transferencia de datos personales a países que no proporcionen niveles adecuados de protección de datos. Se entiende que un país ofrece un nivel adecuado de protección de datos cuando cumpla con los estándares fijados por la Superintendencia de Industria y Comercio sobre la materia, los cuales en ningún caso podrán ser inferiores a los que la presente ley exige a sus destinatarios. Esta prohibición no regirá cuando se trate de:</p>
 
                         <ol className="mb-3 -indent-5 pl-6 space-y-2">
@@ -619,11 +619,11 @@ export default function ProteccionDatos() {
                         </p>
                     </section>
                     <section>
-                        <h2 className="text-2xl font-bold mb-4 text-gray-600 text-center uppercase">14. vigencia</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center uppercase">14. vigencia</h2>
                         <p>
                             Las bases de datos responsabilidad de TRANSPORTADORA SERVITAXI S.A., serán objeto de tratamiento durante el tiempo que sea razonable y necesario para la finalidad para la cual son recabados los datos. Una vez cumplida la finalidad o finalidades del tratamiento y sin perjuicio de normas legales que dispongan lo contrario. La TRANSPORTADORA SERVITAXI S.A. procederá a la supresión de los datos personales en su posesión salvo que exista una obligación legal o contractual que requiera su conservación. Por todo ello, dicha base de datos ha sido creada sin un periodo de vigencia definido.
                         </p>
-                        <p className="mt-6">
+                        <p className="mt-6 mb-20">
                             La presente Política de Tratamiento de Datos Personales rige a partir del 18 de agosto de 2025.
                         </p>
                     </section>

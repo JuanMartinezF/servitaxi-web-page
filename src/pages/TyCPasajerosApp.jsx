@@ -190,7 +190,7 @@ export default function TyCPasajerosApp() {
                             Los usuarios y/o pasajeros reconocen y aceptan que el presente contrato se regirá por la normativa y leyes de la República de Colombia. Cualquier disputa o controversia relacionada con este contrato, se resolverá en un tribunal de arbitramento que designe SERVITAXI S.A., Ambas partes renuncian a cualquier otra jurisdicción que pudiere corresponderles.
                         </p>
                     </section>
-                    <section className="text-2xl mb-10 mt-15 text-justify">
+                    <section className="text-2xl mb-20 mt-15 text-justify">
                         <strong>La descarga de la aplicación por parte del pasajero, desde su dispositivo electrónico, significa la aceptación de todos y cada uno de los términos y condiciones detallados en el presente documento, incluyendo la política de tratamiento de datos personales y los términos y condiciones del aliado financiero.</strong>
                     </section>
                  </div>

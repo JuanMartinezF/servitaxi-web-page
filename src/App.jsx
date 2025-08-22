@@ -9,6 +9,8 @@ import Contactanos from './pages/Contactanos'
 import PoliticaDatos from './pages/PoliticaDatos'
 import ProteccionDatos from './pages/ProteccionDatos'
 import TyCPasajerosApp from "./pages/TyCPasajerosApp"
+import AvisodePrivacidad from "./pages/AvisodePrivacidad"
+import TyCTaxbox from "./pages/TyCTaxbox"
 
 
 
@@ -26,6 +28,8 @@ function App() {
             <Route path="/politica-datos" element={<PoliticaDatos />} />
             <Route path="/proteccion-datos" element={<ProteccionDatos />} />
             <Route path="/terminos-y-condiciones" element={<TyCPasajerosApp />} />
+            <Route path="/aviso-de-privacidad" element={<AvisodePrivacidad />} />
+            <Route path="/terminos-y-condiciones-taxbot" element={<TyCTaxbox />} />
           </Routes>
           <MapSection />
         </main>

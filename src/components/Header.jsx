@@ -15,7 +15,7 @@ export default function Header() {
                     <h1 className="text-2xl font-bold mb-2 md:mb-0">Servitaxi S.A.</h1>
                 </Link>
                 <ul className="flex font-medium flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-                    <li>
+                    <li className="transition-transform hover:scale-115 transform duration-300">
                         <Link 
                             to="/" 
                             className={location.pathname === '/' ? 'text-blue-800' : 'text-black'}
@@ -23,7 +23,7 @@ export default function Header() {
                             Inicio
                         </Link>
                     </li>
-                    <li>
+                    <li className="transition-transform hover:scale-115 transform duration-300">
                         <Link 
                             to="/Quienessomos" 
                             className={location.pathname === '/Quienessomos' ? 'text-blue-800' : 'text-black'}
@@ -31,7 +31,7 @@ export default function Header() {
                             ¿Quienes somos?
                         </Link>
                     </li>
-                    <li>
+                    <li className="transition-transform hover:scale-115 transform duration-300">
                         <Link 
                             to="/Servicios" 
                             className={location.pathname === '/Servicios' ? 'text-blue-800' : 'text-black'}
@@ -39,7 +39,7 @@ export default function Header() {
                             Servicios
                         </Link>
                     </li>
-                    <li>
+                    <li className="transition-transform hover:scale-115 transform duration-300">
                         <Link 
                             to="/Contactanos" 
                             className="bg-red-600 text-white px-4 py-2 rounded-4xl hover:bg-red-700 transition-colors items-center"

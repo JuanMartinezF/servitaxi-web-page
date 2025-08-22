@@ -48,7 +48,7 @@ export default function Quienessomos() {
                             <img 
                                 src="/servitaxiofi.jpg" 
                                 alt="Historia Servitaxi" 
-                                className="rounded-lg shadow-lg w-full h-76 object-cover"
+                                className="rounded-lg shadow-lg w-full h-130 object-cover"
                             />
                         </div>
                     </div>
@@ -77,22 +77,22 @@ export default function Quienessomos() {
                 <section className="mb-16">
                     <h2 className="text-3xl font-bold mb-6 text-yellow-600 text-center">Nuestros Objetivos</h2>
                     <div className="space-y-4">
-                        <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <div className="bg-white p-6 rounded-lg shadow-xl">
                             <p className="text-lg text-justify">
                                 • Prestar un excelente servicio de transporte de pasajeros a domicilio, brindar a sus socios y afiliados todos los servicios complementarios para desarrollar en excelentes condiciones su actividad transportadora.
                             </p>
                         </div>
-                        <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <div className="bg-white p-6 rounded-lg shadow-xl">
                             <p className="text-lg text-justify">
                                 • Alcanzar un excelente nivel tecnológico que satisfaga las necesidades de sus usuarios y clientes internos.
                             </p>
                         </div>
-                        <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <div className="bg-white p-6 rounded-lg shadow-xl">
                             <p className="text-lg text-justify">
                                 • Lograr la modernización administrativa y nivelarla financieramente para que garantice la eficiencia en la prestación del servicio y la rentabilidad a sus propietarios.
                             </p>
                         </div>
-                        <div className="bg-white p-6 rounded-lg shadow-lg">
+                        <div className="bg-white p-6 rounded-lg shadow-xl">
                             <p className="text-lg text-justify">
                                 • Lograr la ampliación en los diferentes modos de transporte para ser una empresa más eficiente y competitiva.
                             </p>
