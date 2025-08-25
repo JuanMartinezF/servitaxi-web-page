@@ -15,7 +15,7 @@ export default function Footer() {
                 {/* Sección superior */}
                 <div className="text-center mb-8">
                     <h2 className="text-yellow-300 text-2xl font-bold mb-2">
-                        Sigueno sen redes sociales, descarga nuestra aplicación movil o contactanos por telefono
+                        Siguenos en redes sociales y descarga nuestra aplicación movil o contactanos por telefono
                     </h2>
                     
                     {/* Iconos y contacto */}
@@ -55,13 +55,13 @@ export default function Footer() {
                     {/* Horario */}
                     <div className="mb-4">
                         <p className="font-bold">Horario de atención:</p>
-                        <p>Lun - Vie: 8:00 am a 12:00 pm y 2:00 pm a 6:00 pm . Sábados de 8:00 am a 2:00 pm</p>
+                        <p>Lun - Vie: 8:00 am a 12:00 pm y 2:00 pm a 6:00 pm . Sábados de 8:00 am a 1:00 pm</p>
                     </div>
 
                     {/* Mensaje de seguridad */}
                     <div className="text-center mb-2">
                         <h3 className="text-yellow-300 text-xl mb-4">
-                            Transportamos los más valioso de la ciudad.
+                            Transportamos lo más valioso de la ciudad.
                         </h3>
                     </div>
 
@@ -77,7 +77,7 @@ export default function Footer() {
                             > @juancmartinezf</Link>
                         </p>
                         <Link to="/politica-datos" 
-                            className="text-sm text-yellow-300 hover:underline block mt-2"
+                            className="text-sm text-yellow-300 hover:underline block mt-2 font-bold"
                         >
                             Terminos y condiciones de uso
                         </Link>

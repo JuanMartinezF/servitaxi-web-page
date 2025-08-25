@@ -11,7 +11,7 @@ export default function ProteccionDatos() {
                             La presente política de tratamiento de datos personales se desarrolla en cumplimiento de los Artículos
                             15 y 20 de la Constitución Política, los Artículos 17 literal k) y 18 literal f) de la Ley Estatutaria
                             1581 del 2012, por la cual, se dictan disposiciones generales para la protección de datos personales (L.E.P.D.), 
-                            y el Artículo 13 del Decreto 1377 de 2013, por el cual, se reglamenta parcialmente la Ley anterior. Esta política
+                            y el Artículo 13 del Decreto 1377 de 2013, por el cual, se reglamenta parcialmente la ley anterior. Esta política
                             será aplicable a todos los datos personales registrados en las bases de datos que sean objeto de tratamiento por el
                             responsable del tratamiento.
                         </p>
@@ -87,10 +87,10 @@ export default function ProteccionDatos() {
                     </section>
                         <ul>
                             <li className= 'mb-8'>
-                                De acuerdo con el Artículo 9 de la Ley de Protección de Datos Personales (L.E.P.D.), se requiere la autorización 
+                                De acuerdo con el Artículo 9 de la Ley de Estatutaria de Protección de Datos (L.E.P.D.), se requiere la autorización 
                                 previa e informada del titular para el tratamiento de sus datos personales. Al aceptar la presente política, todo 
                                 titular que proporcione información relacionada con sus datos personales está dando su consentimiento para el tratamiento 
-                                de sus datos por parte de empresa <strong>TRANSPORTADORA SERVITAXI S.A.</strong>, de acuerdo con los términos 
+                                de sus datos por parte de empresa <strong><strong>SERVITAXI S.A. </strong></strong>, de acuerdo con los términos 
                                 y condiciones establecidos en la misma.
                             </li >
                             <h3 className= 'font-bold mb-2'>No se requeríra la autorización del titular en los siguientes casos:</h3>
@@ -114,7 +114,7 @@ export default function ProteccionDatos() {
                     <section>
                         <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">4. TRATAMIENTO Y FINALIDADES</h2>
                         <p>
-                            La empresa TRANSPORTADORA SERVITAXI S.A. es responsable del tratamiento de 
+                            La empresa <strong>SERVITAXI S.A. </strong> es responsable del tratamiento de 
                             las bases de datos sujetas a la presente política. Sus datos de contacto son los siguientes:
                         </p>
                         <ul className=" pl-6 space-y-2 mt-4">
@@ -133,7 +133,7 @@ export default function ProteccionDatos() {
                     <section>
                         <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">5. TRATAMIENTO Y FINALIDADES DE LAS BASES DE DATOS</h2>
                         <p>
-                            TRANSPORTADORA SERVITAXI S.A. realiza el tratamiento de datos personales de personas naturales en el 
+                            <strong>SERVITAXI S.A. </strong> realiza el tratamiento de datos personales de personas naturales en el 
                             marco de su actividad empresarial. Estos datos se encuentran contenidos en bases de datos destinadas a finalidades legítimas, en cumplimiento 
                             de la Constitución y la Ley.
                         </p>
@@ -178,7 +178,7 @@ export default function ProteccionDatos() {
                     <section>
                         <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">6. DATOS DE NAVEGACIÓN</h2>
                         <p>
-                            Tanto en el Portal Web como las Apps Conductor y Pasajero, de SERVITAXI S.A. se recogen algunos datos personales con el sistema de navegación y el software 
+                            Tanto en el Portal Web como las Apps Conductor y Pasajero, de <strong>SERVITAXI S.A.</strong> se recogen algunos datos personales con el sistema de navegación y el software 
                             necesario para su funcionamiento. Estos datos se transmiten implícitamente mediante los protocolos seguros de comunicación 
                             de Internet y, por su naturaleza, podrían permitir la identificación de los Conductores y Pasajeros, a través de su asociación 
                             con datos de terceros, aunque no se obtengan con ese propósito. Entre los datos recopilados se encuentran la dirección de internet 
@@ -236,26 +236,26 @@ export default function ProteccionDatos() {
                             <li className="flex items-start gap-3">
                                 <span className="text-yellow-400 font-bold mt-1">✓</span>
                                 <div>
-                                    <strong>Derecho de acceso o consulta:</strong> se trata del derecho del Titular a ser informado por el responsable del tratamiento, previa solicitud, respecto al origen, uso y finalidad que le han dado a sus datos personales.
+                                    <strong>Derecho de acceso o consulta:</strong> Se trata del derecho del Titular a ser informado por el responsable del tratamiento, previa solicitud, respecto al origen, uso y finalidad que le han dado a sus datos personales.
                                 </div>
                             </li>
 
                             <li className="flex items-start gap-3">
                                 <span className="text-yellow-400 font-bold mt-1">✓</span>
                                 <div>
-                                    <strong>Derechos de quejas y reclamos:</strong> la Ley distingue cuatro tipos de reclamos:
+                                    <strong>Derechos de quejas y reclamos:</strong> La ley distingue cuatro tipos de reclamos:
                                     <ul className="mt-2 space-y-4 pl-6">
                                         <li>
-                                            <strong>a. Reclamo de corrección:</strong> el derecho del Titular a que se actualicen, rectifiquen o modifiquen aquellos datos parciales, inexactos, incompletos, fraccionados, que induzcan a error o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido autorizado.
+                                            <strong>a. Reclamo de corrección:</strong> El derecho del Titular a que se actualicen, rectifiquen o modifiquen aquellos datos parciales, inexactos, incompletos, fraccionados, que induzcan a error o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido autorizado.
                                         </li>
                                         <li>
-                                            <strong>b. Reclamo de supresión:</strong> el derecho del Titular a que se supriman los datos que resulten inadecuados, excesivos o que no respeten los principios, derechos y garantías constitucionales y legales.
+                                            <strong>b. Reclamo de supresión:</strong> El derecho del Titular a que se supriman los datos que resulten inadecuados, excesivos o que no respeten los principios, derechos y garantías constitucionales y legales.
                                         </li>
                                         <li>
-                                            <strong>c. Reclamo de revocación:</strong> el derecho del Titular a dejar sin efecto la autorización previamente prestada para el tratamiento de sus datos personales.
+                                            <strong>c. Reclamo de revocación:</strong> El derecho del Titular a dejar sin efecto la autorización previamente prestada para el tratamiento de sus datos personales.
                                         </li>
                                         <li>
-                                            <strong>d. Reclamo de infracción:</strong> el derecho del Titular a solicitar que se subsane el incumplimiento de la normativa en materia de Protección de Datos.
+                                            <strong>d. Reclamo de infracción:</strong> El derecho del Titular a solicitar que se subsane el incumplimiento de la normativa en materia de Protección de Datos.
                                         </li>
                                     </ul>
                                 </div>
@@ -264,14 +264,14 @@ export default function ProteccionDatos() {
                             <li className="flex items-start gap-3">
                                 <span className="text-yellow-400 font-bold mt-1">✓</span>
                                 <div>
-                                    <strong>Derecho a solicitar prueba de la autorización otorgada al responsable del tratamiento:</strong> salvo cuando expresamente se exceptúe como requisito para el tratamiento de conformidad con lo previsto en el Artículo 10 de la LEPD.
+                                    <strong>Derecho a solicitar prueba de la autorización otorgada al responsable del tratamiento:</strong> Salvo cuando expresamente se exceptúe como requisito para el tratamiento de conformidad con lo previsto en el Artículo 10 de la L.E.P.D..
                                 </div>
                             </li>
 
                             <li className="flex items-start gap-3">
                                 <span className="text-yellow-400 font-bold mt-1">✓</span>
                                 <div>
-                                    <strong>Derecho a presentar ante la Superintendencia de Industria y Comercio quejas por infracciones:</strong> el Titular o causahabiente solo podrá elevar esta queja una vez haya agotado el trámite de consulta o reclamo ante el responsable del tratamiento o encargado del tratamiento.
+                                    <strong>Derecho a presentar ante la Superintendencia de Industria y Comercio quejas por infracciones:</strong> El Titular o causahabiente solo podrá elevar esta queja una vez haya agotado el trámite de consulta o reclamo ante el responsable del tratamiento o encargado del tratamiento.
                                 </div>
                             </li>
                         </ul>
@@ -282,7 +282,7 @@ export default function ProteccionDatos() {
                             NUBIA FERNANDEZ VARGAS con C.C. 34549181 de Popayán, Cauca.
                         </h3>
                         <p>
-                            TRANSPORTADORA SERVITAXI S.A. será el encargado de la atención de peticiones, consultas y reclamos ante la cual el Titular de los datos puede ejercer sus derechos.
+                            <strong>SERVITAXI S.A. </strong> será el encargado de la atención de peticiones, consultas y reclamos ante la cual el Titular de los datos puede ejercer sus derechos.
                         </p>
                     </section>
                     <section>
@@ -291,17 +291,17 @@ export default function ProteccionDatos() {
                             <section>
                                 <h3 className="text-2xl font-bold mb-4 text-gray-500 ">10.1. Derecho de acceso o consulta</h3>
                                 <p className="mb-4">
-                                    Según el Artículo 21 del Decreto 1377 de 2013, el Titular podrá consultar de forma gratuita sus datos personales en dos casos:
+                                    Según el Artículo 21 del Decreto 1377 de 2013, el Titular podrá consultar de forma gratuita sus datos personales en dos (2) casos:
                                 </p>
                                 <ol className=" pl-6 space-y-2 -indent-5.5">
                                     <li ><span className="font-bold pr-2">1.</span>Al menos una vez cada mes calendario.</li>
                                     <li> <span className="font-bold pr-2">2.</span>Cada vez que existan modificaciones sustanciales de las políticas de tratamiento de la información que motiven nuevas consultas.</li>
                                 </ol>
                                 <p className="mt-4">
-                                    Para consultas cuya periodicidad sea mayor a una por cada mes calendario, TRANSPORTADORA SERVITAXI S.A. solamente podrá cobrar al Titular gastos de envío, reproducción y, en su caso, certificación de documentos. Los costos de reproducción no podrán ser mayores a los costos de recuperación del material correspondiente. Para tal efecto, el responsable deberá demostrar a la Superintendencia de Industria y Comercio, cuando esta así lo requiera, el soporte de dichos gastos.
+                                    Para consultas cuya periodicidad sea mayor a una por cada mes calendario, <strong>SERVITAXI S.A. </strong> solamente podrá cobrar al Titular gastos de envío, reproducción y, en su caso, certificación de documentos. Los costos de reproducción no podrán ser mayores a los costos de recuperación del material correspondiente. Para tal efecto, el responsable deberá demostrar a la Superintendencia de Industria y Comercio, cuando esta así lo requiera, el soporte de dichos gastos.
                                 </p>
                                 <p className="mt-4">
-                                    Para tal efecto, TRANSPORTADORA SERVITAXI S.A. garantizará el establecimiento de medios de comunicación electrónica u otros que considere pertinentes y seguros, que garanticen el acceso gratuito a los datos personales al Titular.
+                                    Para tal efecto, <strong>SERVITAXI S.A. </strong> garantizará el establecimiento de medios de comunicación electrónica u otros que considere pertinentes y seguros, que garanticen el acceso gratuito a los datos personales al Titular.
                                 </p>
                                 <ol className="pl-6 space-y-2 mt-4 -indent-5.5">
                                     <li><span className="font-bold pr-2">1.</span>Nombre y apellidos del Titular.</li>
@@ -321,11 +321,11 @@ export default function ProteccionDatos() {
                                     <span className="text-yellow-400 font-bold">✓</span> Correo electrónico u otro medio electrónico.
                                 </li>
                                 <li>
-                                    <span className="text-yellow-400 font-bold">✓</span> Otro sistema adecuado a la configuración de la base de datos o a la naturaleza del tratamiento, ofrecido por TRANSPORTADORA SERVITAXI S.A.
+                                    <span className="text-yellow-400 font-bold">✓</span> Otro sistema adecuado a la configuración de la base de datos o a la naturaleza del tratamiento, ofrecido por <strong>SERVITAXI S.A. </strong>
                                 </li>
                                 </ul>
                                 <p className="mt-4">
-                                    Una vez recibida la solicitud, TRANSPORTADORA SERVITAXI S.A. resolverá la petición de consulta en un plazo máximo de diez (10) días hábiles contados a partir de la fecha de recibo de la misma. Cuando no fuere posible atender la consulta dentro de dicho término, se informará al interesado, expresando los motivos de la demora y señalando la fecha en que se atenderá su consulta, la cual en ningún caso podrá superar los cinco (5) días hábiles siguientes al vencimiento del primer término. Estos plazos están fijados en el Artículo 14 de la L.E.P.D.
+                                    Una vez recibida la solicitud, <strong>SERVITAXI S.A. </strong> resolverá la petición de consulta en un plazo máximo de diez (10) días hábiles contados a partir de la fecha de recibo de la misma. Cuando no fuere posible atender la consulta dentro de dicho término, se informará al interesado, expresando los motivos de la demora y señalando la fecha en que se atenderá su consulta, la cual en ningún caso podrá superar los cinco (5) días hábiles siguientes al vencimiento del primer término. Estos plazos están fijados en el Artículo 14 de la L.E.P.D.
                                 </p>
                                 
                             </section>
@@ -335,7 +335,7 @@ export default function ProteccionDatos() {
                                 <p className="mb-4">
                                     Según el Artículo 15 de la Ley 1581 de 2012, el Titular o sus causahabientes que consideren que la información contenida en una base de datos debe ser objeto de corrección, actualización o supresión, o cuando adviertan el presunto incumplimiento de cualquiera de los deberes contenidos en la Ley, podrán presentar un reclamo ante el responsable del tratamiento o el encargado del tratamiento. La solicitud deberá contener los siguientes datos:
                                 </p>
-                                <ol className="pl-6 space-y-2 mt-4">
+                                <ol className="pl-6 space-y-2 mt-4 -indent-5.5">
                                     <li><span className="font-bold pr-2">1.</span>Nombre y apellidos del Titular.</li>
                                     <li><span className="font-bold pr-2">2.</span>Fotocopia de la Cédula de Ciudadanía del Titular y, en su caso, de la persona que lo representa, así como del documento acreditativo de tal representación.</li>
                                     <li><span className="font-bold pr-2">3.</span>Descripción de los hechos y petición en que se concreta la solicitud de corrección, supresión, revocación o inflación.</li>
@@ -349,7 +349,7 @@ export default function ProteccionDatos() {
                                     Una vez recibido el reclamo completo, se incluirá en la base de datos una leyenda que diga “reclamo en trámite” y el motivo del mismo, en un término no mayor a dos (2) días hábiles. Dicha leyenda deberá mantenerse hasta que el reclamo sea decidido.
                                 </p>
                                 <p className="mt-4">
-                                   TRANSPORTADORA SERVITAXI S.A. resolverá la petición de consulta en un plazo máximo de quince (15) días hábiles contados a partir de la fecha de recibo de la misma. Cuando no sea posible atender al reclamo dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al vencimiento del primer término. Una vez agotado el trámite de reclamo, el Titular o causahabiente podrá elevar queja ante la Superintendencia de Industria y Comercio.
+                                   <strong>SERVITAXI S.A. </strong> resolverá la petición de consulta en un plazo máximo de quince (15) días hábiles contados a partir de la fecha de recibo de la misma. Cuando no sea posible atender al reclamo dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al vencimiento del primer término. Una vez agotado el trámite de reclamo, el Titular o causahabiente podrá elevar queja ante la Superintendencia de Industria y Comercio.
                                 </p>
                             </section>
                         </div>
@@ -358,10 +358,10 @@ export default function ProteccionDatos() {
                         <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">11. MEDIDAS DE SEGURIDAD</h2>
                         <div>
                             <p>
-                               TRANSPORTADORA SERVITAXI S.A. con el fin de cumplir con el principio de seguridad consagrado en el Artículo 4, literal g) de la L.E.P.D., ha implementado medidas técnicas, humanas y administrativas necesarias para garantizar la seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento.
+                               <strong>SERVITAXI S.A. </strong> con el fin de cumplir con el principio de seguridad consagrado en el Artículo 4, literal g) de la L.E.P.D., ha implementado medidas técnicas, humanas y administrativas necesarias para garantizar la seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento.
                             </p>
                             <p className="mt-4">
-                                Por otra parte, TRANSPORTADORA SERVITAXI S.A. mediante la suscripción de los correspondientes contratos de transmisión, ha requerido a los encargados del tratamiento con los que trabaje, la implementación de las medidas de seguridad necesarias para garantizar la seguridad y confidencialidad de la información en el tratamiento de los datos personales.
+                                Por otra parte, <strong>SERVITAXI S.A. </strong> mediante la suscripción de los correspondientes contratos de transmisión, ha requerido a los encargados del tratamiento con los que trabaje, la implementación de las medidas de seguridad necesarias para garantizar la seguridad y confidencialidad de la información en el tratamiento de los datos personales.
                             </p>
                             <h3 className="font-bold mt-4">Tabla II. Medidas de seguridad comunes para todo tipo de datos (públicos, semiprivados, privados y sensibles) y bases de datos (automatizadas, no automatizadas)</h3>
                             <table className="min-w-full table-auto border-collapse border border-gray-400 mt-4">
@@ -593,10 +593,10 @@ export default function ProteccionDatos() {
                     <section>
                         <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center uppercase">12. Redes Sociales</h2>
                         <p>
-                            Las redes sociales como Facebook e Instagram, constituyen plataformas complementarias de divulgación de la información (comunicación), las cuales son de gran interconexión de los medios digitales de los usuarios y no se encuentran bajo la responsabilidad de la TRANSPORTADORA SERVITAXI S.A. por ser ajenas a la empresa.
+                            Las redes sociales como Facebook e Instagram, constituyen plataformas complementarias de divulgación de la información (comunicación), las cuales son de gran interconexión de los medios digitales de los usuarios y no se encuentran bajo la responsabilidad de la <strong>SERVITAXI S.A. </strong> por ser ajenas a la empresa.
                         </p>
                         <p className="mt-4">
-                            La información que los usuarios proporcionan en las redes sociales en las que participa TRANSPORTADORA SERVITAXI S.A., no constituye ni forma parte de los Datos Personales sujetos a la protección de esta Política. La responsabilidad de dicha información recae exclusivamente en la empresa prestadora de la plataforma correspondiente.
+                            La información que los usuarios proporcionan en las redes sociales en las que participa <strong>SERVITAXI S.A. </strong>, no constituye ni forma parte de los Datos Personales sujetos a la protección de esta Política. La responsabilidad de dicha información recae exclusivamente en la empresa prestadora de la plataforma correspondiente.
                         </p>
                     </section>
                     <section>
@@ -618,10 +618,16 @@ export default function ProteccionDatos() {
                             Las transmisiones internacionales de datos personales que se efectúen entre un responsable y un encargado para permitir que el encargado realice el tratamiento por cuenta del responsable, no requerirán ser informadas al Titular ni contar con su consentimiento, siempre que exista un contrato de transmisión de datos personales.
                         </p>
                     </section>
+                    
                     <section>
-                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center uppercase">14. vigencia</h2>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center uppercase">14. cultura taxi de servitaxi y la protección de datos personales</h2>
+                        <p>se enorgullece de su cultura de confidencialidad y respeto por la privacidad de sus clientes. Por lo tanto, se compromete a proteger los datos personales de sus clientes de acuerdo con las leyes y regulaciones aplicables. Su política de protección de datos personales se basa en unos valores y principios culturales y se enfoca en garantizar la confidencialidad, integridad y disponibilidad de los datos personales de nuestros clientes. Además, se compromete a capacitar a sus empleados en la cultura de protección de datos personales de la empresa y a comunicar esta política de protección de datos personales a sus clientes y al público en general. Se evaluará y actualizará regularmente la política de protección de datos personales para mantenerla alineada con su cultura y los cambios en las leyes y regulaciones aplicables.</p>
+                        
+                    </section>
+                    <section>
+                        <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center uppercase">15. vigencia</h2>
                         <p>
-                            Las bases de datos responsabilidad de TRANSPORTADORA SERVITAXI S.A., serán objeto de tratamiento durante el tiempo que sea razonable y necesario para la finalidad para la cual son recabados los datos. Una vez cumplida la finalidad o finalidades del tratamiento y sin perjuicio de normas legales que dispongan lo contrario. La TRANSPORTADORA SERVITAXI S.A. procederá a la supresión de los datos personales en su posesión salvo que exista una obligación legal o contractual que requiera su conservación. Por todo ello, dicha base de datos ha sido creada sin un periodo de vigencia definido.
+                            Las bases de datos responsabilidad de <strong>SERVITAXI S.A. </strong>, serán objeto de tratamiento durante el tiempo que sea razonable y necesario para la finalidad para la cual son recabados los datos. Una vez cumplida la finalidad o finalidades del tratamiento y sin perjuicio de normas legales que dispongan lo contrario. La <strong>SERVITAXI S.A. </strong> procederá a la supresión de los datos personales en su posesión salvo que exista una obligación legal o contractual que requiera su conservación. Por todo ello, dicha base de datos ha sido creada sin un periodo de vigencia definido.
                         </p>
                         <p className="mt-6 mb-20">
                             La presente Política de Tratamiento de Datos Personales rige a partir del 18 de agosto de 2025.

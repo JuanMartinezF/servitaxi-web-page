@@ -35,7 +35,7 @@ export default function PoliticaDatos() {
                         <div className="flex items-center gap-3">
                             <span className="text-yellow-400 font-bold">✓</span>
                             <p >
-                                Aviso de privacidad Clic {' '}
+                                Aviso de privacidad. Clic {' '}
                                 <Link to="/aviso-de-privacidad" className="font-bold underline hover:text-yellow-600">
                                     aquí
                                 </Link>
@@ -45,7 +45,7 @@ export default function PoliticaDatos() {
                         <div className="flex items-center gap-3">
                             <span className="text-yellow-400 font-bold">✓</span>
                             <p >
-                                Terminos y Condiciones Taxbot Clic {' '}
+                                Terminos y Condiciones Taxbot. Clic {' '}
                                 <Link to="/terminos-y-condiciones-taxbot" className="font-bold underline hover:text-yellow-600">
                                     aquí
                                 </Link>
