@@ -39,7 +39,7 @@ export default function Home() {
                                 className="w-full h-48 object-cover rounded-lg mb-4"
                             />
                             <h3 className="text-xl font-bold mb-2 text-center">Transporte de pasajeros</h3>
-                            <p className="text-justify">Para Servitaxi el trasporte de transportarte es transportar lo más valioso de la ciudad, por eso tenemos varios canales desde donde podrás solicitar nuestros servicio de recogida, no importa en que parte del área urbana de Popayán te encuentres.</p>
+                            <p className="text-justify">Para nosotros cada viaje contigo es transportar lo más valioso de la ciudad, por eso en Servitaxi tenemos varios canales desde donde podrás solicitar nuestros servicio de recogida, no importa en que parte del área urbana de Popayán te encuentres.</p>
                             
                         </div>
                         {/* Agrega las otras dos tarjetas de servicios de manera similar */}
@@ -50,7 +50,7 @@ export default function Home() {
                                 className="w-full h-48 object-cover rounded-lg mb-4"
                             />
                             <h3 className="text-xl font-bold mb-2 text-center">Servicio de encomiendas</h3>
-                            <p className="text-justify">En Servitaxi contamos con envío de encomiendas dentro de la ciudad de Popayán para que envíes con seguridad tus encomiendas con la seguridad de que serán cuidadas y llegaran a su destino sin problema.</p>
+                            <p className="text-justify">Creemos que la confianza es fundamental, por eso en Servitaxi contamos con envío de encomiendas dentro de la ciudad de Popayán con la garantía de que tus envíos serán protegidos y entregados sin contratiempos.</p>
                         </div>
                         <div className="bg-yellow-200 p-6 rounded-lg shadow-lg">
                             <img 

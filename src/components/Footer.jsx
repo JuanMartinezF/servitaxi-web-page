@@ -53,15 +53,21 @@ export default function Footer() {
                     </div>
 
                     {/* Horario */}
-                    <div className="mb-4">
+                    <div className="-mb-6">
                         <p className="font-bold">Horario de atención:</p>
                         <p>Lun - Vie: 8:00 am a 12:00 pm y 2:00 pm a 6:00 pm . Sábados de 8:00 am a 1:00 pm</p>
                     </div>
 
+                    {/* Logos */}
+                    <div className="flex justify-center items-center-safe flex-wrap ">
+                        <img src="/Logo-Vigilado-SuperTransporte_blanco_.png" alt="Logo 1" className="h-50 -mr-30" />
+                        <img src="/logoservitaxi.jpg" alt="Logo 2" className="h-20 mx-20" />
+                        
+                    </div>
+
                     {/* Mensaje de seguridad */}
-                    <div className="text-center mb-2">
-                        <img src="/logoservitaxi.jpg" alt="Servitaxi Logo" className="mx-auto h-20 mb-2" />
-                        <h3 className="text-yellow-300 text-xl mb-4 font-lobster italic">
+                    <div className="text-center mb-2 -mt-12">
+                        <h3 className="text-yellow-300 text-xl font-lobster italic">
                             Transportamos lo más valioso de la ciudad.
                         </h3>
                     </div>

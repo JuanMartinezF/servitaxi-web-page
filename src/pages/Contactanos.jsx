@@ -41,9 +41,9 @@ export default function Contactanos() {
                     <div>
                         <h2 className="text-2xl font-bold mb-4">Información de Contacto</h2>
                         <div className="space-y-4">
-                            <p>📞 (604) 511 11 11</p>
-                            <p>📱 (604) 444 11 11</p>
-                            <p>📍 CALLE 60 # 51 - 65 MEDELLÍN - COLOMBIA</p>
+                            <p>📞 </p>
+                            <p>📱 </p>
+                            <p>📍 CALLE 2N #11-41, Barrio Modelo, Popayán, Colombia</p>
                         </div>
                     </div>
                 </div>
