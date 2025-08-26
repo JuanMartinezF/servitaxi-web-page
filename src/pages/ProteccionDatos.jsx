@@ -1,9 +1,9 @@
 export default function ProteccionDatos() {
     return (
-        <div className="pt-30 min-h-screen bg-white">
+        <div className="pt-30 min-h-screen bg-white font-instrument">
             <div className="container mx-auto px-4 py-8">
                 <h1 className="text-4xl font-bold mb-8 text-center">Política de Protección de Datos Personales</h1>
-                
+
                 <div className="prose max-w-none space-y-6 text-justify text-xl">
                     <section>
                         <h2 className="text-gray-600  text-3xl font-bold mb-4 text-center">1. BASE LEGAL Y ÁMBITO DE APLICACIÓN</h2>

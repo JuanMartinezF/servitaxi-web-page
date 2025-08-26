@@ -1,6 +1,6 @@
 export default function Servicios() {
     return (
-        <div className="pt-20 min-h-screen bg-white">
+        <div className="pt-20 min-h-screen bg-white font-instrument">
             <div className="container mx-auto px-4 py-8">
                 <h1 className="text-4xl font-bold mb-8">Nuestros Servicios</h1>
                 <div className="grid md:grid-cols-3 gap-8">

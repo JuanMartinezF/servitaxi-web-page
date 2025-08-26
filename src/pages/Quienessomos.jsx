@@ -1,6 +1,6 @@
 export default function Quienessomos() {
     return (
-        <div className="pt-20 min-h-screen bg-white">
+        <div className="pt-20 min-h-screen bg-white font-instrument">
             <div className="container mx-auto px-4 py-8">
                 <h1 className="text-4xl font-bold mb-8 text-center">¿Quiénes Somos?</h1>
                 

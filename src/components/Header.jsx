@@ -14,7 +14,7 @@ export default function Header() {
     };
 
     return (
-        <header className="fixed top-0 left-0 right-0 bg-yellow-300 p-4 text-black z-50">
+        <header className="fixed top-0 left-0 right-0 bg-yellow-300 p-4 text-black z-50 font-instrument">
             <nav className="flex justify-between items-center">
                 {/* Logo y título */}
                 <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity" onClick={closeMenu}>
@@ -27,7 +27,7 @@ export default function Header() {
                 </Link>
 
                 {/* Menú de escritorio */}
-                <ul className="hidden md:flex font-medium space-x-4">
+                <ul className="hidden md:flex font-bold space-x-4">
                     <li className="transition-transform hover:scale-115 transform duration-300">
                         <Link 
                             to="/" 

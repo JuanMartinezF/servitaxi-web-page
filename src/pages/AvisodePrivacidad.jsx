@@ -1,7 +1,7 @@
 
 export default function AvisodePrivacidad() {
     return (
-        <div className="pt-20 min-h-screen bg-white">
+        <div className="pt-20 min-h-screen bg-white font-instrument">
             <div className="container mx-auto px-4 py-8">
                 <h1 className="text-4xl font-bold mb-8 text-center">Aviso de Privacidad</h1>
                 <div className= "text-xl prose max-w-none space-y-6 text-justify">

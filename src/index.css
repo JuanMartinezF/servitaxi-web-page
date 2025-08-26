@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 @import "tailwindcss";
 
 
@@ -13,7 +16,9 @@ body {
 }
 
 @theme {
-  --font-sans: 'Roboto', sans-serif, system-ui, Avenir, 'Helvetica Neue', Arial ;
+  --font-sans: ,'Roboto', sans-serif, system-ui, Avenir, 'Helvetica Neue', Arial ;
+  --font-instrument: 'Instrument Sans', sans-serif;
+  --font-lobster: 'Lobster', cursive;
 }
 
 @font-face {

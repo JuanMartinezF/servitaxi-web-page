@@ -10,7 +10,7 @@ import { SiGooglemaps } from "react-icons/si";
 
 export default function Footer() {
     return (
-        <footer className="bg-black text-white py-8">
+        <footer className="bg-black text-white py-8 font-instrument">
             <div className="container mx-auto px-4">
                 {/* Sección superior */}
                 <div className="text-center mb-8">
@@ -60,14 +60,15 @@ export default function Footer() {
 
                     {/* Mensaje de seguridad */}
                     <div className="text-center mb-2">
-                        <h3 className="text-yellow-300 text-xl mb-4">
+                        <img src="/logoservitaxi.jpg" alt="Servitaxi Logo" className="mx-auto h-20 mb-2" />
+                        <h3 className="text-yellow-300 text-xl mb-4 font-lobster italic">
                             Transportamos lo más valioso de la ciudad.
                         </h3>
                     </div>
 
                     {/* Logo y derechos */}
                     <div className="text-center">
-                        <img src="/logoservitaxi.jpg" alt="Servitaxi Logo" className="mx-auto h-20 mb-2" />
+                        
                         <p className="text-sm">© 2025 TODOS LOS DERECHOS RESERVADOS</p>
                         <p className="text-sm italic">Desarrollado por
                             <Link to="https://www.linkedin.com/in/juan-mart%C3%ADnez-b83a7b302/" 

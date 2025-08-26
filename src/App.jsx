@@ -11,6 +11,7 @@ import ProteccionDatos from './pages/ProteccionDatos'
 import TyCPasajerosApp from "./pages/TyCPasajerosApp"
 import AvisodePrivacidad from "./pages/AvisodePrivacidad"
 import TyCTaxbox from "./pages/TyCTaxbox"
+import ScrollToTop from "./pages/scrolltop"
 
 
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="flex flex-col min-h-screen">
+        <ScrollToTop/>
         <Header />
         <main className="flex-grow">
           <Routes>

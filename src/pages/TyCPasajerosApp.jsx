@@ -1,6 +1,6 @@
 export default function TyCPasajerosApp() {
     return (
-        <div className="pt-30 min-h-screen bg-white container mx-auto">
+        <div className="pt-30 min-h-screen bg-white container mx-auto font-instrument">
             <div className="container mx-auto px-4 py-8">
                  <h1 className="text-4xl font-bold mb-8 text-center"    >Terminos y condiciones App usuario SERVITAXI S.A.</h1>
                  <div>
