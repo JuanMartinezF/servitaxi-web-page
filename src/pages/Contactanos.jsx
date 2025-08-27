@@ -40,8 +40,8 @@ export default function Contactanos() {
                                 <p>3028359000</p>
                             </a>                            
                         </div>
-                        <h3 className="font-bold mt-6">Tesoreria y Almacen</h3>
-                        <div >
+                        <h3 className="font-bold mt-6">Tesorería y Almacén</h3>
+                        <div className="space-y-4 columns-4 mt-2">
                             <div className="flex items-center gap-2">
                                 <FaPhoneAlt className="text-red-600"/>
                                 <p>(602) 8205482</p>
@@ -60,41 +60,49 @@ export default function Contactanos() {
                         </div>
                     </section>
                     <div>
-                        <form className="space-y-4">
+                        <form >
                             <div>
-                                <label className="block mb-2">Nombre</label>
+                                <label className="block mb-2 font-bold">Nombre</label>
                                 <input 
                                     type="text" 
-                                    className="w-full p-2 border rounded"
+                                    className="w-full p-2 border-2 rounded"
                                     placeholder="Tu nombre"
                                 />
                             </div>
-                            <div>
-                                <label className="block mb-2">Email</label>
+                            <div className="my-4">
+                                <label className="block mb-2 font-bold">Asunto</label>
+                                <input 
+                                    type="text" 
+                                    className="w-full p-2 border-2 rounded"
+                                    placeholder="Asunto del mensaje"
+                                />
+                            </div>
+                            <div className="my-4">
+                                <label className="block mb-2 font-bold">Email</label>
                                 <input 
                                     type="email" 
-                                    className="w-full p-2 border rounded"
+                                    className="w-full p-2 border-2 rounded"
                                     placeholder="tu@email.com"
                                 />
                             </div>
                             <div>
-                                <label className="block mb-2">Mensaje</label>
+                                <label className="block mb-2 font-bold">Mensaje</label>
                                 <textarea 
-                                    className="w-full p-2 border rounded"
+                                    className="w-full p-2 border-2 rounded"
                                     rows="4"
                                     placeholder="Tu mensaje"
                                 ></textarea>
                             </div>
                             <button 
                                 type="submit"
-                                className="bg-yellow-300 text-black px-6 py-2 rounded hover:bg-yellow-400"
+                                className="bg-yellow-300 text-black px-6 py-2 rounded hover:bg-yellow-500 font-bold transition-transform hover:scale-110 transform duration-300"
                             >
                                 Enviar Mensaje
                             </button>
                         </form>
                     </div>
                     <div>
-                        <h2 className="text-2xl font-bold mb-4">Direccion</h2>
+                        <h2 className="text-2xl font-bold mb-4 -mt-8">Direccion</h2>
                         <div className="space-y-4 flex items-center-safe gap-2 mt-2">
                             <SiGooglemaps className="h-5 w-5 text-blue-600"/>
                             <p>Calle 2N #11-41, Barrio Modelo, Popayán, Colombia</p>
