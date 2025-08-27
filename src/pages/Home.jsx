@@ -7,7 +7,7 @@ export default function Home() {
             <section className="relative h-screen">
                 <div className="absolute inset-0">
                     <img 
-                        src="/taxista.jpg" 
+                        src="/fondonuevo.jpg" 
                         alt="Taxi"
                         className="w-full h-full object-cover brightness-50"
                     />

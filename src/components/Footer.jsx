@@ -59,14 +59,21 @@ export default function Footer() {
                     </div>
 
                     {/* Logos */}
-                    <div className="flex justify-center items-center-safe flex-wrap ">
-                        <img src="/Logo-Vigilado-SuperTransporte_blanco_.png" alt="Logo 1" className="h-50 -mr-30" />
-                        <img src="/logoservitaxi.jpg" alt="Logo 2" className="h-20 mx-20" />
-                        
+                    <div className="flex justify-center items-center gap-4 md:gap-8 flex-wrap my-8">
+                        <img 
+                            src="/Logo-Vigilado-SuperTransporte_blanco_.png" 
+                            alt="Logo SuperTransporte" 
+                            className="h-16 md:h-20 w-auto object-contain" 
+                        />
+                        <img 
+                            src="/logoservitaxi.jpg" 
+                            alt="Logo Servitaxi" 
+                            className="h-12 md:h-16 w-auto object-contain" 
+                        />
                     </div>
 
                     {/* Mensaje de seguridad */}
-                    <div className="text-center mb-2 -mt-12">
+                    <div className="text-center mb-2 -mt-8">
                         <h3 className="text-yellow-300 text-xl font-lobster italic">
                             Transportamos lo más valioso de la ciudad.
                         </h3>
