@@ -43,7 +43,7 @@ export default function Footer() {
                         <div className="flex items-center gap-2">
                             <FaPhoneAlt />
                             <span>(602) 8233333</span>
-                        </div>
+                        </div>  
                         
                         {/* Dirección */}
                         <div className="flex items-center gap-2">
@@ -63,7 +63,7 @@ export default function Footer() {
                         <img 
                             src="/Logo-Vigilado-SuperTransporte_blanco_.png" 
                             alt="Logo SuperTransporte" 
-                            className="h-16 md:h-20 w-auto object-contain" 
+                            className="h-16 md:h-30 w-auto object-contain" 
                         />
                         <img 
                             src="/logoservitaxi.jpg" 
