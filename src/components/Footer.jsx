@@ -42,7 +42,7 @@ export default function Footer() {
                         </div>
                         <div className="flex items-center gap-2">
                             <FaPhoneAlt />
-                            <span>(602) 444 11 11</span>
+                            <span>(602) 8233333</span>
                         </div>
                         
                         {/* Dirección */}

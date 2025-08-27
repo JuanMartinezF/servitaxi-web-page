@@ -278,10 +278,18 @@ export default function ProteccionDatos() {
                     </section>
                     <section>
                         <h2 className="text-3xl font-bold mb-4 text-gray-600 text-center">9. ATENCIÓN A LOS TITULARES DE DATOS</h2>
-                        <h3 className="mb-7">
-                            NUBIA FERNANDEZ VARGAS con C.C. 34549181 de Popayán, Cauca.
-                        </h3>
-                        <p>
+                        <ul className="space-y-2 mt-4">
+                            <li>
+                                <span className="text-yellow-400 font-bold">✓</span> Direccion: Calle 60 # 51 - 65, Popayán, Colombia
+                            </li>
+                            <li>
+                                <span className="text-yellow-400 font-bold">✓</span> Telefono: (602) 8333333
+                            </li>
+                            <li>
+                                <span className="text-yellow-400 font-bold">✓</span> Correo electrónico: servitaxi33@hotmail.com
+                            </li>
+                        </ul>
+                        <p className="mt-6">
                             <strong>SERVITAXI S.A. </strong> será el encargado de la atención de peticiones, consultas y reclamos ante la cual el Titular de los datos puede ejercer sus derechos.
                         </p>
                     </section>

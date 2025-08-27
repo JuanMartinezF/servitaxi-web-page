@@ -25,7 +25,7 @@ export default function PoliticaDatos() {
                         <div className="flex items-center gap-3">
                             <span className="text-yellow-400 font-bold">✓</span>
                             <p >
-                                Términos y condiciones generales para el uso del pasajero(a) del aplicativo. Clic {' '}
+                                Términos y condiciones generales para el uso del aplicativo del pasajero(a) . Clic {' '}
                                 <Link to="/terminos-y-condiciones" className="font-bold underline hover:text-yellow-600">
                                     aquí
                                 </Link>
