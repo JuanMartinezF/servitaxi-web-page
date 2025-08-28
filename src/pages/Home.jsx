@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight, FaApple, FaGooglePlay, FaTimes } from "react-icons/fa";
 
 export default function Home() {
     const [currentSlide, setCurrentSlide] = useState(0);
+    const [showModal, setShowModal] = useState(false);
     
     // Datos del carrusel
     const slides = [
@@ -44,6 +45,10 @@ export default function Home() {
         setCurrentSlide(index);
     };
 
+    // Funciones para el modal
+    const openModal = () => setShowModal(true);
+    const closeModal = () => setShowModal(false);
+
     return (
         <div className="font-instrument">
             {/* Hero Carousel Section */}
@@ -61,7 +66,7 @@ export default function Home() {
                                 <img 
                                     src={slide.image}
                                     alt={`Slide ${slide.id}`}
-                                    className="w-full h-full object-cover brightness-50"
+                                    className="w-full h-full object-cover object-center brightness-50"
                                 />
                             </div>
                             <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
@@ -76,7 +81,10 @@ export default function Home() {
                                     </p>
                                 )}
                                 {slide.buttonText && slide.buttonText !== null && (
-                                    <button className="bg-red-600 text-white px-6 py-3 rounded-full text-lg font-semibold transition-colors hover:bg-red-700 cursor-pointer">
+                                    <button 
+                                        onClick={openModal}
+                                        className="bg-red-600 text-white px-6 py-3 rounded-full text-lg font-semibold transition-colors hover:bg-red-700 cursor-pointer"
+                                    >
                                         {slide.buttonText}
                                     </button>
                                 )}
@@ -126,6 +134,71 @@ export default function Home() {
                     />
                 </div>
             </section>
+
+            {/* Modal para descarga de la app */}
+            {showModal && (
+                <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+                    <div className="bg-white rounded-lg shadow-xl max-w-md w-full mx-4 relative">
+                        {/* Botón cerrar */}
+                        <button
+                            onClick={closeModal}
+                            className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 transition-colors"
+                        >
+                            <FaTimes className="w-6 h-6" />
+                        </button>
+
+                        {/* Contenido del modal */}
+                        <div className="p-6 text-center">
+                            <div className="mb-4">
+                                <img 
+                                    src="/logoservitaxi.jpg" 
+                                    alt="Servitaxi Logo" 
+                                    className="h-16 w-auto mx-auto mb-4"
+                                />
+                                <h3 className="text-2xl font-bold text-gray-800 mb-2">
+                                    ¡Descarga nuestra App!
+                                </h3>
+                                <p className="text-gray-600 mb-6">
+                                    Solicita tus servicios de taxi de forma rápida y segura
+                                </p>
+                            </div>
+
+                            {/* Botones de descarga */}
+                            <div className="space-y-3">
+                                {/* Android */}
+                                <a 
+                                    href="https://play.google.com/store/apps/details?id=co.gentedetaxi.servitaxi.pax&pcampaignid=web_share" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="flex items-center justify-center w-full bg-green-600 hover:bg-green-700 text-white py-3 px-4 rounded-lg transition-colors"
+                                >
+                                    <FaGooglePlay className="w-5 h-5 mr-3" />
+                                    Descargar para Android
+                                </a>
+
+                                {/* iOS */}
+                                <a 
+                                    href="https://apps.apple.com/co/app/servitaxi-popay%C3%A1n/id1249544312?l=en-GB" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="flex items-center justify-center w-full bg-gray-900 hover:bg-black text-white py-3 px-4 rounded-lg transition-colors"
+                                >
+                                    <FaApple className="w-5 h-5 mr-3" />
+                                    Descargar para iOS
+                                </a>
+                            </div>
+
+                            {/* Botón cerrar alternativo */}
+                            <button
+                                onClick={closeModal}
+                                className="mt-4 text-gray-500 hover:text-gray-700 text-sm transition-colors"
+                            >
+                                Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
 
             {/* Servicios Section - Sin cambios */}
             <section className="bg-white py-16 font-instrument">
