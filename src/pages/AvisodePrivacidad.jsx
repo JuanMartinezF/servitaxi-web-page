@@ -16,8 +16,8 @@ export default function AvisodePrivacidad() {
                     <section>
                         <strong> a) SERVITAXI S.A.</strong>  serán los responsables del tratamiento de sus datos personales;
                         <strong> b) </strong> Con objeto de recibir una atención integral como cliente, los datos personales recabados serán tratados con las siguientes finalidades: Propósitos comerciales en la prestación del servicio de transporte público individual de pasajeros;
-                        <strong> c) </strong> La política de tratamiento de los datos del Titular, así como los cambios sustanciales que se produzcan en ésta, se podrán consultar en el siguiente correo electrónico: servitaxi33@hotmail.com;
-                        <strong> d) </strong> El Titular puede ejercitar los derechos de acceso, corrección, supresión, revocación o reclamo por infracción sobre sus datos con un escrito dirigido a <strong>SERVITAXI S.A.,</strong> a la dirección de correo electrónico servitaxi33@hotmail.com, indicando en el asunto el derecho que desea ejercitar; o mediante correo postal remitido a  en la dirección <strong>Calle 2N # 11-41</strong>, Barrio Modelo, Popayán, Cauca.
+                        <strong> c) </strong> La política de tratamiento de los datos del Titular, así como los cambios sustanciales que se produzcan en ésta, se podrán consultar en el siguiente correo electrónico: transservitaxi@servitaxipopayan.com.co;
+                        <strong> d) </strong> El Titular puede ejercitar los derechos de acceso, corrección, supresión, revocación o reclamo por infracción sobre sus datos con un escrito dirigido a <strong>SERVITAXI S.A.,</strong> a la dirección de correo electrónico transservitaxi@servitaxipopayan.com.co, indicando en el asunto el derecho que desea ejercitar; o mediante correo postal remitido a  en la dirección <strong>Calle 2N # 11-41</strong>, Barrio Modelo, Popayán, Cauca.
                         <p className="mt-4">
                             <strong>SERVITAXI S.A.</strong> implementa medidas de seguridad adecuadas para proteger y ayudar a prevenir el acceso no autorizado, modificación, revelación no autorizada o el retiro de información, sin la autorización correspondiente.
                         </p>
@@ -64,7 +64,7 @@ export default function AvisodePrivacidad() {
                         </p>
                         <p className="mt-4">
                             <strong>SERVITAXI S.A.</strong> no recaban datos de menores de catorce (14) años, en caso que el representante legal del menor considere que sus datos e información personal del menor se encuentren contenidas en las bases de datos del Responsable podrá solicitar su remoción a través del correo:
-                            <strong> servitaxi33@hotmail.com</strong>
+                            <strong> transservitaxi@servitaxipopayan.com.co</strong>
                         </p>
                         <p className="mt-4 mb-20">
                             Queda expresamente establecido, que con la descarga, aceptación y uso del aplicativo y del presente contrato, el pasajero otorga su consentimiento para el uso de sus datos personales conforme a lo señalado en el presente contrato.

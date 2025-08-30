@@ -1,9 +1,49 @@
+import { useState, useEffect } from "react";
 import { MdSmartphone } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { SiGooglemaps } from "react-icons/si";
 
 export default function Contactanos() {
+    const [formData, setFormData] = useState({
+        name: '',
+        asunto: '',
+        email: '',
+        mensaje: ''
+    });
+    const [message, setMessage] = useState('');
+    const [showSuccess, setShowSuccess] = useState(false);
+
+    // Verificar si viene de un envío exitoso
+    useEffect(() => {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('sent') === 'true') {
+            setMessage('✅ Mensaje enviado correctamente. Te responderemos pronto.');
+            setShowSuccess(true);
+            // Limpiar la URL
+            window.history.replaceState({}, document.title, window.location.pathname);
+            // Limpiar el formulario
+            setFormData({
+                name: '',
+                asunto: '',
+                email: '',
+                mensaje: ''
+            });
+        }
+    }, []);
+
+    const handleChange = (e) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        });
+    };
+
+    const handleSubmit = (e) => {
+        // Permitir el envío normal del formulario
+        setMessage('⏳ Enviando mensaje...');
+    };
+
     return (
         <div className="pt-20 min-h-screen bg-white font-instrument">
             <div className="container mx-auto px-4 py-8">
@@ -81,11 +121,34 @@ export default function Contactanos() {
                     {/* COLUMNA 2: Formulario de contacto */}
                     <div>
                         <h2 className="text-2xl font-bold mb-6">Envíanos un mensaje</h2>
-                        <form className="space-y-4">
+                        
+                        {/* Mensaje de estado */}
+                        {message && (
+                            <div className={`p-3 rounded-lg mb-4 ${
+                                message.includes('✅') 
+                                    ? 'bg-green-100 text-green-700 border border-green-300' 
+                                    : message.includes('⏳')
+                                    ? 'bg-blue-100 text-blue-700 border border-blue-300'
+                                    : 'bg-red-100 text-red-700 border border-red-300'
+                            }`}>
+                                {message}
+                            </div>
+                        )}
+
+                        <form 
+                            action="https://formsubmit.co/transservitaxi@servitaxipopayan.com.co" 
+                            method="POST" 
+                            onSubmit={handleSubmit}
+                            className="space-y-4"
+                        >
                             <div>
                                 <label className="block mb-2 font-bold text-gray-700">Nombre</label>
-                                <input 
-                                    type="text" 
+                                <input
+                                    name="name"
+                                    type="text"
+                                    value={formData.name}
+                                    onChange={handleChange}
+                                    required
                                     className="w-full p-3 border-2 border-gray-300 rounded-lg focus:border-yellow-400 focus:outline-none transition-colors"
                                     placeholder="Tu nombre"
                                 />
@@ -95,6 +158,10 @@ export default function Contactanos() {
                                 <label className="block mb-2 font-bold text-gray-700">Asunto</label>
                                 <input 
                                     type="text" 
+                                    name="asunto"
+                                    value={formData.asunto}
+                                    onChange={handleChange}
+                                    required
                                     className="w-full p-3 border-2 border-gray-300 rounded-lg focus:border-yellow-400 focus:outline-none transition-colors"
                                     placeholder="Asunto del mensaje"
                                 />
@@ -103,7 +170,11 @@ export default function Contactanos() {
                             <div>
                                 <label className="block mb-2 font-bold text-gray-700">Correo</label>
                                 <input 
-                                    type="email" 
+                                    name="email"
+                                    type="email"
+                                    value={formData.email}
+                                    onChange={handleChange}
+                                    required
                                     className="w-full p-3 border-2 border-gray-300 rounded-lg focus:border-yellow-400 focus:outline-none transition-colors"
                                     placeholder="tu@correo.com"
                                 />
@@ -111,21 +182,30 @@ export default function Contactanos() {
                             
                             <div>
                                 <label className="block mb-2 font-bold text-gray-700">Mensaje</label>
-                                <textarea 
+                                <textarea
+                                    name="message"
+                                    value={formData.message}
+                                    onChange={handleChange}
+                                    required
                                     className="w-full p-3 border-2 border-gray-300 rounded-lg focus:border-yellow-400 focus:outline-none transition-colors resize-vertical"
                                     rows="5"
                                     placeholder="Escribe tu mensaje aquí..."
                                 ></textarea>
                             </div>
+                            
                             <div className="text-center">
                                 <button 
-                                type="submit"
-                                className="cursor-pointer bg-yellow-300 text-black px-6 py-3 rounded-lg hover:bg-yellow-400 font-bold transition-all hover:scale-105 transform duration-200 shadow-md hover:shadow-lg"
-                            >
-                                Enviar Mensaje
-                            </button>
+                                    type="submit"
+                                    className="bg-yellow-300 text-black px-6 py-3 rounded-lg hover:bg-yellow-400 font-bold transition-all hover:scale-105 transform duration-200 shadow-md hover:shadow-lg cursor-pointer"
+                                >
+                                    {message.includes('⏳') ? 'Enviando...' : 'Enviar Mensaje'}
+                                </button>
                             </div>
                             
+                            {/* Configuración de FormSubmit */}
+                            <input type="hidden" name="_next" value={`${window.location.origin}${window.location.pathname}?sent=true`} />
+                            <input type="hidden" name="_captcha" value="false" />
+                            <input type="hidden" name="_template" value="table" />
                         </form>
                     </div>
                 </div>

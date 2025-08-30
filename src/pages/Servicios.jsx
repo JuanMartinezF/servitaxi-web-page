@@ -70,7 +70,7 @@ export default function Servicios() {
                 </div>
                 <div>
                 <h2 className="text-3xl font-bold text-center mt-8 mb-8">Marcas que Manejamos</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
                     <div className="flex justify-center items-center">
                         <img 
                             src="/mobil-logo.svg"
@@ -91,6 +91,12 @@ export default function Servicios() {
                             alt="Terpel"
                             className="h-50 w-auto object-contain"
                         />
+                    </div>
+                    <div className="flex justify-center items-center">
+                        <img src="/kixx-oil-logo.png"
+                            alt="Kixx"
+                            className="h-50 w-auto object-contain"
+                         />
                     </div>
                 </div>
                 </div>

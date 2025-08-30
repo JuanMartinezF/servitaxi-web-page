@@ -125,7 +125,7 @@ export default function ProteccionDatos() {
                                 <span className="text-yellow-400 font-bold">✓</span> Telefono: (602) 8333333
                             </li>
                             <li>
-                                <span className="text-yellow-400 font-bold">✓</span> Correo electrónico: servitaxi33@hotmail.com
+                                <span className="text-yellow-400 font-bold">✓</span> Correo electrónico: transservitaxi@servitaxipopayan.com.co
                             </li>
                         </ul>
                     </section>
@@ -286,7 +286,7 @@ export default function ProteccionDatos() {
                                 <span className="text-yellow-400 font-bold">✓</span> Telefono: (602) 8333333
                             </li>
                             <li>
-                                <span className="text-yellow-400 font-bold">✓</span> Correo electrónico: servitaxi33@hotmail.com
+                                <span className="text-yellow-400 font-bold">✓</span> Correo electrónico: transservitaxi@servitaxipopayan.com.co
                             </li>
                         </ul>
                         <p className="mt-6">

@@ -68,7 +68,7 @@ export default function TyCTaxbox() {
                             <strong>Aviso legal: </strong> El servicio virtual de TaxBot no es un canal virtual de SERVITAXI S.A. para la recepción de, comentarios y sugerencias. Cualquier petición diferente a la solicitud del servicio virtual de taxi se entenderá por no leído y se procederá a su depuración.
                         </p>
                         <p>
-                            Notificaciones: calle 2N #11-41, barrio modelo, Popayán, Cauca. Teléfono de contacto (602) 8333333 y correo electrónico servitaxi33@hotmail.com
+                            Notificaciones: calle 2N #11-41, barrio modelo, Popayán, Cauca. Teléfono de contacto (602) 8333333 y correo electrónico transservitaxi@servitaxipopayan.com.co
                         </p>
                         <p className="mt-4 mb-20">
                             <i>
