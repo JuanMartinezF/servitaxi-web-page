@@ -120,7 +120,7 @@ export default function Contactanos() {
                     
                     {/* COLUMNA 2: Formulario de contacto */}
                     <div>
-                        <h2 className="text-2xl font-bold mb-6">Envíanos un mensaje</h2>
+                        <h2 className="text-2xl font-bold mb-6">Envíanos un mensaje a nuestro correo</h2>
                         
                         {/* Mensaje de estado */}
                         {message && (

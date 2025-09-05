@@ -28,7 +28,7 @@ export default function Home() {
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentSlide((prev) => (prev + 1) % slides.length);
-        }, 5000);
+        }, 8000);
 
         return () => clearInterval(timer);
     }, [slides.length]);
@@ -200,41 +200,92 @@ export default function Home() {
                 </div>
             )}
 
-            {/* Servicios Section - Sin cambios */}
-            <section className="bg-white py-16 font-instrument">
-                <div className="container mx-auto px-4">
-                    <h2 className="text-3xl font-bold text-center mb-8">
+            {/* Servicios Section */}
+             <section className="bg-white py-8 sm:py-12 md:py-16 lg:py-20 font-instrument">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center 
+                                 mb-8 sm:mb-10 md:mb-12 text-gray-800">
                         ¿Ya conoces nuestros servicios?
                     </h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <div className="bg-yellow-200 p-6 rounded-lg shadow-lg">
-                            <img 
-                                src="/transportep.png" 
-                                alt="Transporte de pasajeros" 
-                                className="w-full h-48 object-cover rounded-lg mb-4"
-                            />
-                            <h3 className="text-xl font-bold mb-2 text-center">Transporte de pasajeros</h3>
-                            <p className="text-justify">Para nosotros cada viaje contigo es transportar lo más valioso de la ciudad, por eso en Servitaxi tenemos varios canales desde donde podrás solicitar nuestros servicio de recogida, no importa en que parte del área urbana de Popayán te encuentres.</p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 
+                                  gap-6 sm:gap-8 md:gap-10">
+                        
+                        {/* Servicio 1 */}
+                        <div className="bg-yellow-200 p-4 sm:p-6 md:p-8 rounded-xl shadow-lg 
+                                      hover:shadow-2xl transition-all duration-500 
+                                      hover:scale-105 hover:-translate-y-2
+                                      border border-yellow-300">
+                            <div className="overflow-hidden rounded-lg mb-4 sm:mb-6">
+                                <img 
+                                    src="/transportep.png" 
+                                    alt="Transporte de pasajeros" 
+                                    className="w-full h-90 sm:h-48 md:h-52 object-cover 
+                                             transition-transform duration-500 hover:scale-110"
+                                />
+                            </div>
+                            <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4 
+                                         text-center text-gray-800">
+                                Transporte de pasajeros
+                            </h3>
+                            <p className="text-sm sm:text-base md:text-lg text-justify 
+                                         leading-relaxed text-black line-height-loose">
+                                Para nosotros cada viaje contigo es transportar lo más valioso de la ciudad, 
+                                por eso en Servitaxi tenemos varios canales desde donde podrás solicitar 
+                                nuestros servicio de recogida, no importa en que parte del área urbana de 
+                                Popayán te encuentres.
+                            </p>
                         </div>
                         
-                        <div className="bg-yellow-200 p-6 rounded-lg shadow-lg">
-                            <img 
-                                src="/encomiendasia.png" 
-                                alt="Encomiendas" 
-                                className="w-full h-48 object-cover rounded-lg mb-4"
-                            />
-                            <h3 className="text-xl font-bold mb-2 text-center">Servicio de encomiendas</h3>
-                            <p className="text-justify">Creemos que la confianza es fundamental, por eso en Servitaxi contamos con envío de encomiendas dentro de la ciudad de Popayán con la garantía de que tus envíos serán protegidos y entregados sin contratiempos.</p>
+                        {/* Servicio 2 */}
+                        <div className="bg-yellow-200 p-4 sm:p-6 md:p-8 rounded-xl shadow-lg 
+                                      hover:shadow-2xl transition-all duration-500 
+                                      hover:scale-105 hover:-translate-y-2
+                                      border border-yellow-300">
+                            <div className="overflow-hidden rounded-lg mb-4 sm:mb-6">
+                                <img 
+                                    src="/encomiendasia.png" 
+                                    alt="Encomiendas" 
+                                    className="w-full h-90 sm:h-48 md:h-52 object-cover 
+                                             transition-transform duration-500 hover:scale-110"
+                                />
+                            </div>
+                            <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4 
+                                         text-center text-gray-800">
+                                Servicio de encomiendas
+                            </h3>
+                            <p className="text-sm sm:text-base md:text-lg text-justify 
+                                         leading-relaxed text">
+                                Creemos que la confianza es fundamental, por eso en Servitaxi contamos con 
+                                envío de encomiendas dentro de la ciudad de Popayán con la garantía de que 
+                                tus envíos serán protegidos y entregados sin contratiempos.
+                            </p>
                         </div>
                         
-                        <div className="bg-yellow-200 p-6 rounded-lg shadow-lg">
-                            <img 
-                                src="/cambioaceite.jpg" 
-                                alt="Serviteca" 
-                                className="w-full h-48 object-cover rounded-lg mb-4"
-                            />
-                            <h3 className="text-xl font-bold mb-2 text-center">Serviteca</h3>
-                            <p className="text-justify">En Servitaxi contamos con un excelente servicio para tu vehículo, en nuestras instalaciones puedes realizar cambio de aceite, realizado por nuestro personal altamente calificado y experimentado o si prefieres hacerlo tu mismo también contamos con la venta de aceite para tu motor, refrigerante y llantas.</p>
+                        {/* Servicio 3 */}
+                        <div className="bg-yellow-200 p-4 sm:p-6 md:p-8 rounded-xl shadow-lg 
+                                      hover:shadow-2xl transition-all duration-500 
+                                      hover:scale-105 hover:-translate-y-2
+                                      border border-yellow-300
+                                      sm:col-span-2 md:col-span-1">
+                            <div className="overflow-hidden rounded-lg mb-4 sm:mb-6">
+                                <img 
+                                    src="/cambioaceite.jpg" 
+                                    alt="Serviteca" 
+                                    className="w-full h-80 sm:h-48 md:h-52 object-cover 
+                                             transition-transform duration-500 hover:scale-110"
+                                />
+                            </div>
+                            <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4 
+                                         text-center text-gray-800">
+                                Serviteca
+                            </h3>
+                            <p className="text-sm sm:text-base md:text-lg text-justify 
+                                         leading-relaxed text-black">
+                                En Servitaxi contamos con un excelente servicio para tu vehículo, en nuestras 
+                                instalaciones puedes realizar cambio de aceite, realizado por nuestro personal 
+                                altamente calificado y experimentado o si prefieres hacerlo tu mismo también 
+                                contamos con la venta de aceite para tu motor, refrigerante y llantas.
+                            </p>
                         </div>
                     </div>
                 </div>

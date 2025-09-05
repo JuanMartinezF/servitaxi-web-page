@@ -21,9 +21,9 @@ export default function Header() {
                     <img 
                         src="/logoservitaxi.jpg"
                         alt="Servitaxi Logo" 
-                        className="w-20 h-13" 
+                        className="w-18 h-12" 
                     />
-                    <h1 className="text-2xl font-bold">Servitaxi S.A.</h1>
+                    <h1 className="text-xl font-bold">Servitaxi S.A.</h1>
                 </Link>
 
                 {/* Menú de escritorio */}
