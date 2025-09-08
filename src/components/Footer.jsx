@@ -15,7 +15,7 @@ export default function Footer() {
                 {/* Sección superior */}
                 <div className="text-center mb-8">
                     <h2 className="text-yellow-300 text-2xl font-bold mb-2">
-                        Siguenos en redes sociales y descarga nuestra aplicación movil o contactanos por medio de WhatsApp y telefono las 24 horas
+                        Siguenos en redes sociales, descarga nuestra aplicación movil contactanos, por WhatsApp y radio operadoras las 24 horas
                     </h2>
                     
                     {/* Iconos y contacto */}
