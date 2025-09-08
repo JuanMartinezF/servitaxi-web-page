@@ -15,12 +15,12 @@ export default function Footer() {
                 {/* Sección superior */}
                 <div className="text-center mb-8">
                     <h2 className="text-yellow-300 text-2xl font-bold mb-2">
-                        Siguenos en redes sociales y descarga nuestra aplicación movil o contactanos por telefono
+                        Siguenos en redes sociales y descarga nuestra aplicación movil o contactanos por medio de WhatsApp y telefono las 24 horas
                     </h2>
                     
                     {/* Iconos y contacto */}
                     <div className="flex justify-center items-center gap-4 flex-wrap mb-4">
-                        <a href="https://wa.me/+573136520767" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/+573028359000" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp className="h-8 w-8 text-white hover:text-yellow-300"/>
                         </a>
                         <a href="https://play.google.com/store/apps/details?id=co.gentedetaxi.servitaxi.pax&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">
@@ -48,13 +48,13 @@ export default function Footer() {
                         {/* Dirección */}
                         <div className="flex items-center gap-2">
                             <SiGooglemaps className="h-5 w-5 text-white hover:text-yellow-300"/>
-                            <span>Calle 2N #11 - 41. Popayán, Colombia</span>
+                            <span>Calle 2 #11 - 41. Popayán, Colombia</span>
                         </div>
                     </div>
 
                     {/* Horario */}
                     <div className="-mb-6">
-                        <p className="font-bold">Horario de atención:</p>
+                        <p className="font-bold">Horario de atención administrativa:</p>
                         <p>Lun - Vie: 8:00 am a 12:00 pm y 2:00 pm a 6:00 pm . Sábados de 8:00 am a 1:00 pm</p>
                     </div>
 

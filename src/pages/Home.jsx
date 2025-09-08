@@ -50,7 +50,7 @@ export default function Home() {
     const closeModal = () => setShowModal(false);
 
     return (
-        <div className="font-instrument">
+        <div className=" font-instrument">
             {/* Hero Carousel Section */}
             <section className="relative h-screen overflow-hidden">
                 {/* Slides */}

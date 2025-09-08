@@ -113,7 +113,7 @@ export default function Contactanos() {
                             <h2 className="text-2xl font-bold mb-4">Dirección</h2>
                             <div className="flex items-center gap-2">
                                 <SiGooglemaps className="h-5 w-5 text-blue-600"/>
-                                <p>Calle 2N #11-41, Barrio Modelo, Popayán, Colombia</p>
+                                <p>Calle 2 #11-41, Barrio Modelo, Popayán, Colombia</p>
                             </div>
                         </section>
                     </div>
