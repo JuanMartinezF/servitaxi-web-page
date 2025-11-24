@@ -49,27 +49,26 @@ export default function Home() {
     const openModal = () => setShowModal(true);
     const closeModal = () => setShowModal(false);
 
+
     return (
-        <div className=" font-instrument">
+        <div className="pt-20 font-instrument">
             {/* Hero Carousel Section */}
-            <section className="relative h-screen overflow-hidden">
+            <section className="relative w-full overflow-hidden bg-[#112638] h-[40vh] md:h-[calc((100vh-80px)*0.5)]">
                 {/* Slides */}
                 <div className="relative w-full h-full">
                     {slides.map((slide, index) => (
                         <div
                             key={slide.id}
-                            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-                                index === currentSlide ? 'opacity-100' : 'opacity-0'
-                            }`}
+                            className={`${index === currentSlide ? 'block' : 'hidden'} w-full h-full relative`}
                         >
-                            <div className="absolute inset-0">
+                            <div className="w-full h-full bg-[#102d46]">
                                 <img 
                                     src={slide.image}
                                     alt={`Slide ${slide.id}`}
-                                    className="w-full h-full object-cover object-center brightness-50"
+                                    className="w-full h-full object-contain md:object-contain object-center brightness-50"
                                 />
                             </div>
-                            <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+                            <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-white text-center px-4">
                                 {slide.title && slide.title !== null && (
                                     <h1 className="text-4xl md:text-6xl mb-4 font-lobster max-w-4xl">
                                         {slide.title}
@@ -201,6 +200,19 @@ export default function Home() {
             )}
 
             {/* Servicios Section */}
+            
+                    <h2 className="text-2xl  py-6 sm:text-3xl md:text-4xl font-bold text-center 
+                                  sm:mb-10 md:mb-12 text-gray-800">
+                        ¿Que hay de nuevo?
+                    </h2>
+                    <div className="overflow-hidden rounded-lg mb-4 sm:mb-6 flex justify-center">
+                                <img
+                                    src="/8.png" 
+                                    alt="Gran Sorteo" 
+                                    className="block mx-auto w-full rounded-lg max-w-5xl h-auto object-contain"
+                                />
+                    </div>
+
              <section className="bg-white py-8 sm:py-12 md:py-16 lg:py-20 font-instrument">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center 
