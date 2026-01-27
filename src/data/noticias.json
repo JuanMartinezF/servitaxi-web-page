@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "titulo": "Bienvenido al nuevo sistema de noticias de Servitaxi",
+    "resumen": "Ahora podrás mantenerte informado sobre las novedades, promociones y actualizaciones de Servitaxi S.A.",
+    "contenido": "Estamos emocionados de presentar nuestro nuevo sistema de noticias. Aquí encontrarás información actualizada sobre nuestros servicios, promociones especiales, eventos y todo lo relacionado con Servitaxi S.A. Mantente conectado y no te pierdas ninguna novedad.",
+    "imagen": "/Logo_Oficial.png",
+    "fecha": "2025-01-27",
+    "autor": "Servitaxi S.A.",
+    "categoria": "General",
+    "destacada": true,
+    "archivoAdjunto": null
+  },
+  {
+    "id": 2,
+    "titulo": "Gran Sorteo Servitaxi 2025",
+    "resumen": "Participa en nuestro gran sorteo y gana increíbles premios usando nuestros servicios.",
+    "contenido": "Servitaxi S.A. te invita a participar en nuestro gran sorteo 2025. Cada vez que uses nuestros servicios, acumulas oportunidades de ganar. Premios increíbles te esperan. Revisa las bases y condiciones en nuestras oficinas o descarga nuestra app para más información.",
+    "imagen": "/SERVITAXI S.A_publi_web.svg",
+    "fecha": "2024-11-28",
+    "autor": "Servitaxi S.A.",
+    "categoria": "Promociones",
+    "destacada": true,
+    "archivoAdjunto": "/SERVITAXI S.A_publi_web.svg"
+  },
+  {
+    "id": 3,
+    "titulo": "Pico y Placa 2025 - Mantente Informado",
+    "resumen": "Popayán implementa nuevo Pico y Placa 2026 para vehículos particulares con rotación semestral",
+    "contenido": "La Alcaldía de Popayán estableció el nuevo esquema de Pico y Placa para el año 2026, aplicable a vehículos particulares, motocicletas y similares, con restricción de circulación de lunes a viernes entre las 7:00 a.m. y las 8:00 p.m., según el último dígito de la placa. La medida tendrá dos fases de rotación: del 12 de enero al 26 de junio y del 6 de julio al 31 de diciembre, con cambios en los dígitos restringidos para cada día. \n\nEl decreto también define exenciones para vehículos oficiales, de emergencia, personas con discapacidad, transporte escolar, servicios públicos, vehículos eléctricos e híbridos, entre otros, así como la posibilidad de solicitar permisos especiales pagos. El incumplimiento de la medida conlleva multa, inmovilización del vehículo y posibles sanciones adicionales, con vigencia hasta el 31 de diciembre de 2026.",
+    "imagen": "/picoyplacapopayan.jpg",
+    "fecha": "2025-01-10",
+    "autor": "Servitaxi S.A.",
+    "categoria": "Información",
+    "destacada": true,
+    "archivoAdjunto": "/Decreto_20261000000355_del_09_de_enero_2026.pdf"
+  },
+  {
+    "id": 4,
+    "titulo": "Nuevas Camaras de Fotomulta",
+    "resumen": "Popayán tendra dos nuevas cámaras de fotomulta en la vía Panamericana, sector Bella Vista.",
+    "contenido": "La ciudad de Popayán contará con dos nuevos puntos de fotodetección autorizados por el Ministerio de Transporte y la Agencia Nacional de Seguridad Vial, los cuales estarán ubicados en el sector de Bella Vista, sobre la vía Panamericana, operando en ambos sentidos (norte–sur y sur–norte). Estas cámaras buscan fortalecer el control vial en uno de los corredores con mayor flujo vehicular de la ciudad y reducir los índices de accidentalidad.\n\nLos dispositivos estarán habilitados para sancionar infracciones como exceso de velocidad, incumplimiento del pico y placa, falta de SOAT y revisión técnico-mecánica. Se espera que entren en funcionamiento durante el primer semestre de 2026, con el objetivo de mejorar la seguridad vial y el cumplimiento de las normas de tránsito en esta vía estratégica para Popayán y el departamento del Cauca.\n\nPara el gremio de taxistas, estas cámaras controlarán infracciones como exceso de velocidad, cruce de semáforo en rojo, respeto al paso peatonal, además de verificar SOAT, revisión técnico-mecánica y pico y placa. Las autoridades recomiendan a los conductores mantenerse atentos a la señalización y cumplir estrictamente las normas, ya que estos puntos son de alto flujo vehicular y tendrán monitoreo permanente.",
+    "imagen": "/fotomulta.png",
+    "fecha": "2025-01-15",
+    "autor": "Proclama del Pacífico",
+    "categoria": "Información",
+    "destacada": true,
+    "archivoAdjunto": null
+  }
+]

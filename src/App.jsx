@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Quienessomos from './pages/Quienessomos'
 import Servicios from './pages/Servicios'
 import Contactanos from './pages/Contactanos'
+import Noticias from './pages/Noticias'
 import PoliticaDatos from './pages/PoliticaDatos'
 import ProteccionDatos from './pages/ProteccionDatos'
 import TyCPasajerosApp from "./pages/TyCPasajerosApp"
@@ -26,6 +27,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/quienessomos" element={<Quienessomos />} />
             <Route path="/servicios" element={<Servicios />} />
+            <Route path="/noticias" element={<Noticias />} />
             <Route path="/contactanos" element={<Contactanos />} />
             <Route path="/politica-datos" element={<PoliticaDatos />} />
             <Route path="/proteccion-datos" element={<ProteccionDatos />} />

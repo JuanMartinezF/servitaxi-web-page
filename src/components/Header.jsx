@@ -38,23 +38,31 @@ export default function Header() {
                     </li>
                     <li className="transition-transform hover:scale-115 transform duration-300">
                         <Link 
-                            to="/Quienessomos" 
-                            className={location.pathname === '/Quienessomos' ? 'text-blue-800' : 'text-black'}
+                            to="/quienessomos" 
+                            className={location.pathname === '/quienessomos' ? 'text-blue-800' : 'text-black'}
                         >
                             ¿Quienes somos?
                         </Link>
                     </li>
                     <li className="transition-transform hover:scale-115 transform duration-300">
                         <Link 
-                            to="/Servicios" 
-                            className={location.pathname === '/Servicios' ? 'text-blue-800' : 'text-black'}
+                            to="/servicios" 
+                            className={location.pathname === '/servicios' ? 'text-blue-800' : 'text-black'}
                         >
                             Servicios
                         </Link>
                     </li>
                     <li className="transition-transform hover:scale-115 transform duration-300">
                         <Link 
-                            to="/Contactanos" 
+                            to="/noticias" 
+                            className={location.pathname === '/noticias' ? 'text-blue-800' : 'text-black'}
+                        >
+                            Noticias
+                        </Link>
+                    </li>
+                    <li className="transition-transform hover:scale-115 transform duration-300">
+                        <Link 
+                            to="/contactanos" 
                             className="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition-colors"
                         >
                             Contáctanos
@@ -88,8 +96,8 @@ export default function Header() {
                     </li>
                     <li className="transition-transform hover:scale-105 transform duration-300">
                         <Link 
-                            to="/Quienessomos" 
-                            className={`block py-2 px-2 rounded ${location.pathname === '/Quienessomos' ? 'text-blue-800 bg-blue-100 mx-12' : 'text-black hover:bg-yellow-400 mx-12'}`}
+                            to="/quienessomos" 
+                            className={`block py-2 px-2 rounded ${location.pathname === '/quienessomos' ? 'text-blue-800 bg-blue-100 mx-12' : 'text-black hover:bg-yellow-400 mx-12'}`}
                             onClick={closeMenu}
                         >
                             ¿Quienes somos?
@@ -97,8 +105,8 @@ export default function Header() {
                     </li>
                     <li className="transition-transform hover:scale-105 transform duration-300">
                         <Link 
-                            to="/Servicios" 
-                            className={`block py-2 px-2 rounded ${location.pathname === '/Servicios' ? 'text-blue-800 bg-blue-100 mx-12' : 'text-black hover:bg-yellow-400 mx-12'}`}
+                            to="/servicios" 
+                            className={`block py-2 px-2 rounded ${location.pathname === '/servicios' ? 'text-blue-800 bg-blue-100 mx-12' : 'text-black hover:bg-yellow-400 mx-12'}`}
                             onClick={closeMenu}
                         >
                             Servicios
@@ -106,7 +114,16 @@ export default function Header() {
                     </li>
                     <li className="transition-transform hover:scale-105 transform duration-300">
                         <Link 
-                            to="/Contactanos" 
+                            to="/noticias" 
+                            className={`block py-2 px-2 rounded ${location.pathname === '/noticias' ? 'text-blue-800 bg-blue-100 mx-12' : 'text-black hover:bg-yellow-400 mx-12'}`}
+                            onClick={closeMenu}
+                        >
+                            Noticias
+                        </Link>
+                    </li>
+                    <li className="transition-transform hover:scale-105 transform duration-300">
+                        <Link 
+                            to="/contactanos" 
                             className="block bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition-colors text-center mx-12"
                             onClick={closeMenu}
                         >
