@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { FaTimes, FaFilePdf, FaImage } from 'react-icons/fa';
+import NewsContent from './NewsContent';
 
 export default function NewsModalCarousel({ noticia, onClose }) {
     // Cerrar con tecla Escape
@@ -86,10 +87,11 @@ export default function NewsModalCarousel({ noticia, onClose }) {
                     </div>
 
                     {/* Contenido completo */}
-                    <div className="prose max-w-none mb-6">
-                        <p className="text-gray-700 text-base leading-relaxed whitespace-pre-line">
-                            {noticia.contenido}
-                        </p>
+                    <div className="max-w-none mb-6">
+                        <NewsContent
+                            content={noticia.contenido}
+                            textClassName="text-gray-700 text-base leading-relaxed"
+                        />
                     </div>
 
                     {/* Botón para ver archivo adjunto */}

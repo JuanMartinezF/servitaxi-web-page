@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { MdSmartphone } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -12,25 +12,6 @@ export default function Contactanos() {
         mensaje: ''
     });
     const [message, setMessage] = useState('');
-    const [showSuccess, setShowSuccess] = useState(false);
-
-    // Verificar si viene de un envío exitoso
-    useEffect(() => {
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('sent') === 'true') {
-            setMessage('✅ Mensaje enviado correctamente. Te responderemos pronto.');
-            setShowSuccess(true);
-            // Limpiar la URL
-            window.history.replaceState({}, document.title, window.location.pathname);
-            // Limpiar el formulario
-            setFormData({
-                name: '',
-                asunto: '',
-                email: '',
-                mensaje: ''
-            });
-        }
-    }, []);
 
     const handleChange = (e) => {
         setFormData({
@@ -39,9 +20,35 @@ export default function Contactanos() {
         });
     };
 
-    const handleSubmit = (e) => {
-        // Permitir el envío normal del formulario
+    const handleSubmit = async (e) => {
+        e.preventDefault();
         setMessage('⏳ Enviando mensaje...');
+
+        // Usando FormSubmit temporalmente (gratis)
+        const formElement = e.target;
+        const formData = new FormData(formElement);
+        
+        try {
+            const response = await fetch('https://formsubmit.co/transpotadoraservitaxisa@gmail.com', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (response.ok) {
+                setMessage('✅ Mensaje enviado correctamente. Te responderemos pronto.');
+                setFormData({
+                    name: '',
+                    asunto: '',
+                    email: '',
+                    mensaje: ''
+                });
+            } else {
+                setMessage('❌ Error al enviar el mensaje. Por favor intenta de nuevo.');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            setMessage('❌ Error de conexión. Verifica tu internet e intenta de nuevo.');
+        }
     };
 
     return (
@@ -136,8 +143,6 @@ export default function Contactanos() {
                         )}
 
                         <form 
-                            action="https://formsubmit.co/transservitaxi@servitaxipopayan.com.co" 
-                            method="POST" 
                             onSubmit={handleSubmit}
                             className="space-y-4"
                         >
@@ -183,8 +188,8 @@ export default function Contactanos() {
                             <div>
                                 <label className="block mb-2 font-bold text-gray-700">Mensaje</label>
                                 <textarea
-                                    name="message"
-                                    value={formData.message}
+                                    name="mensaje"
+                                    value={formData.mensaje}
                                     onChange={handleChange}
                                     required
                                     className="w-full p-3 border-2 border-gray-300 rounded-lg focus:border-yellow-400 focus:outline-none transition-colors resize-vertical"
@@ -201,9 +206,8 @@ export default function Contactanos() {
                                     {message.includes('⏳') ? 'Enviando...' : 'Enviar Mensaje'}
                                 </button>
                             </div>
-                            
-                            {/* Configuración de FormSubmit */}
-                            <input type="hidden" name="_next" value={`${window.location.origin}${window.location.pathname}?sent=true`} />
+
+                            {/* Campos ocultos para FormSubmit */}
                             <input type="hidden" name="_captcha" value="false" />
                             <input type="hidden" name="_template" value="table" />
                         </form>

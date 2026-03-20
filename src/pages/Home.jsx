@@ -24,6 +24,10 @@ export default function Home() {
             id: 1,
             imageDesktop: "/fondodesktop.svg",          // Imagen para escritorio
             imageMobile: "/fondomobile.svg",    // Imagen para móvil
+            videoDesktop: "/banner-video.mp4",
+            videoMobile: "/banner-video-mobile.mp4",
+            videoPosterDesktop: "/fondodesktop.svg",
+            videoPosterMobile: "/fondomobile.svg",
             title: COMPANY_INFO.tagline,
             subtitle: "Servicio de transporte de pasajeros, encomiendas y más",
             buttonText: "Consigue nuestra App"
@@ -109,11 +113,25 @@ export default function Home() {
                             className={`${index === currentSlide ? 'block' : 'hidden'} w-full h-full absolute inset-0`}
                         >
                             <div className="w-full h-full bg-[#102d46]">
-                                <img 
-                                    src={slide.imageDesktop}
-                                    alt={slide.title || `Slide ${slide.id}`}
-                                    className="w-full h-full object-cover object-center brightness-50"
-                                />
+                                {slide.videoDesktop ? (
+                                    <video
+                                        className="w-full h-full object-cover object-center brightness-50"
+                                        autoPlay
+                                        muted
+                                        loop
+                                        playsInline
+                                        preload="metadata"
+                                        poster={slide.videoPosterDesktop || slide.imageDesktop}
+                                    >
+                                        <source src={slide.videoDesktop} type="video/mp4" />
+                                    </video>
+                                ) : (
+                                    <img 
+                                        src={slide.imageDesktop}
+                                        alt={slide.title || `Slide ${slide.id}`}
+                                        className="w-full h-full object-cover object-center brightness-50"
+                                    />
+                                )}
                             </div>
                             <div className="absolute inset-0 z-10 flex flex-col items-center justify-start pt-20 text-white text-center px-4">
                                 {slide.title && slide.title !== null && (
@@ -147,11 +165,25 @@ export default function Home() {
                             className={`${index === currentSlide ? 'block' : 'hidden'} w-full h-full absolute inset-0`}
                         >
                             <div className="w-full h-full bg-[#102d46]">
-                                <img 
-                                    src={slide.imageMobile}
-                                    alt={slide.title || `Slide ${slide.id}`}
-                                    className="w-full h-full object-cover object-center brightness-50"
-                                />
+                                {slide.videoMobile ? (
+                                    <video
+                                        className="w-full h-full object-cover object-center brightness-50"
+                                        autoPlay
+                                        muted
+                                        loop
+                                        playsInline
+                                        preload="metadata"
+                                        poster={slide.videoPosterMobile || slide.imageMobile}
+                                    >
+                                        <source src={slide.videoMobile} type="video/mp4" />
+                                    </video>
+                                ) : (
+                                    <img 
+                                        src={slide.imageMobile}
+                                        alt={slide.title || `Slide ${slide.id}`}
+                                        className="w-full h-full object-cover object-center brightness-50"
+                                    />
+                                )}
                             </div>
                             <div className="absolute inset-0 z-10 flex flex-col items-center justify-start pt-16 text-white text-center px-4">
                                 {slide.title && slide.title !== null && (
@@ -373,6 +405,31 @@ export default function Home() {
                     onClose={handleCloseNoticiaModal} 
                 />
             )}
+
+            <section className="bg-white py-10 sm:py-12 md:py-14 font-instrument">
+                <div className="container mx-auto px-4 flex flex-col items-center">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 text-gray-800">
+                        Conoce nuestro servicio
+                    </h2>
+                    <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
+                        <div
+                            className="relative w-full overflow-hidden rounded-2xl shadow-xl border border-gray-200"
+                            style={{ aspectRatio: '9/16' }}
+                        >
+                            <video
+                                className="w-full h-full object-cover"
+                                autoPlay
+                                controls
+                                muted
+                                playsInline
+                                preload="metadata"
+                            >
+                                <source src="/video-llantas.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
              <section className="bg-white py-8 sm:py-12 md:py-16 lg:py-20 font-instrument">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">

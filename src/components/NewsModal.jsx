@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { FaTimes } from 'react-icons/fa';
+import NewsContent from './NewsContent';
 
 export default function NewsModal({ noticia, onClose }) {
     // Cerrar con tecla Escape
@@ -100,10 +101,11 @@ export default function NewsModal({ noticia, onClose }) {
                     </div>
 
                     {/* Contenido completo */}
-                    <div className="prose max-w-none">
-                        <p className="text-gray-700 text-lg leading-relaxed whitespace-pre-line">
-                            {noticia.contenido}
-                        </p>
+                    <div className="max-w-none">
+                        <NewsContent
+                            content={noticia.contenido}
+                            textClassName="text-gray-700 text-lg leading-relaxed"
+                        />
                     </div>
 
                     {/* Botón de cierre al final */}
