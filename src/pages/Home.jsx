@@ -4,8 +4,10 @@ import { FaChevronLeft, FaChevronRight, FaApple, FaGooglePlay, FaTimes } from "r
 import ServiceCard from '../components/ServiceCard';
 import NewsCardCarousel from '../components/NewsCardCarousel';
 import NewsModalCarousel from '../components/NewsModalCarousel';
+import VideoCard from '../components/VideoCard';
 import { APP_LINKS, SERVICES, COMPANY_INFO } from '../data/constants';
 import noticiasData from '../data/noticias.json';
+import videosData from '../data/videos.json';
 
 export default function Home() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -406,36 +408,26 @@ export default function Home() {
                 />
             )}
 
-            <section className="bg-white py-10 sm:py-12 md:py-14 font-instrument">
-                <div className="container mx-auto px-4 flex flex-col items-center">
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 text-gray-800">
-                        Conoce nuestro servicio
-                    </h2>
-                    <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
-                        <div
-                            className="relative w-full overflow-hidden rounded-2xl shadow-xl border border-gray-200"
-                            style={{ aspectRatio: '9/16' }}
-                        >
-                            <video
-                                className="w-full h-full object-cover"
-                                autoPlay
-                                controls
-                                muted
-                                playsInline
-                                preload="metadata"
-                            >
-                                <source src="/video-llantas.mp4" type="video/mp4" />
-                            </video>
+            {videosData.length > 0 && (
+                <section className="bg-white py-10 sm:py-12 md:py-14 font-instrument">
+                    <div className="container mx-auto px-4 flex flex-col items-center">
+                        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800">
+                            Servitaxi
+                        </h2>
+                        <div className={`w-full flex flex-wrap justify-center gap-8`}>
+                            {videosData.map((video) => (
+                                <VideoCard key={video.id} video={video} />
+                            ))}
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            )}
 
              <section className="bg-white py-8 sm:py-12 md:py-16 lg:py-20 font-instrument">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center 
                                  mb-8 sm:mb-10 md:mb-12 text-gray-800">
-                        ¿Ya conoces nuestros servicios?
+                        ¿Ya conoces todos nuestros servicios?
                     </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 
                                   gap-6 sm:gap-8 md:gap-10">

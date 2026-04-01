@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "titulo": "Servitaxi en acción",
+    "descripcion": "Conoce nuestro servicio de transporte de pasajeros.",
+    "src": "/video-llantas.mp4",
+    "poster": null,
+    "aspectRatio": "9/16"
+  },
+  {
+    "id": 2,
+    "titulo": "Publicidad Servitaxi",
+    "descripcion": "Servitaxi S.A., tu mejor opción de transporte en Popayán.",
+    "src": "/publicidadss.mp4",
+    "poster": null,
+    "aspectRatio": "9/16"
+  }
+]

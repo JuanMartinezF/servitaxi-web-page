@@ -1,13 +1,14 @@
 # 🚕 Servitaxi S.A. - Página Web Oficial
 
-Sitio web corporativo de **Servitaxi S.A.**, empresa líder en servicios de transporte de pasajeros y encomiendas en Popayán, Colombia.
+Sitio web corporativo de **Servitaxi S.A.**, empresa de transporte público individual (taxi) y servicios complementarios con sede en Popayán, Colombia.
 
 ## ✨ Características
 
-- 🏠 **Página de inicio** con carrusel de imágenes
+- 🏠 **Página de inicio** con carrusel de imágenes/video
 - ℹ️ **¿Quiénes somos?** - Historia y misión de la empresa
 - 🚖 **Servicios** - Transporte, encomiendas y serviteca
-- 📰 **Noticias** - Sistema de gestión de noticias con filtros *(NUEVO)*
+- 📰 **Noticias** - Sistema de gestión de noticias con filtros
+- 🎬 **Videos** - Galería de videos promocionales gestionada por JSON
 - 📞 **Contacto** - Formulario y información de contacto
 - 📱 **Diseño responsive** - Optimizado para móviles y escritorio
 - ⚡ **Performance optimizada** - Lazy loading y animaciones fluidas
@@ -25,29 +26,41 @@ Sitio web corporativo de **Servitaxi S.A.**, empresa líder en servicios de tran
 
 ```
 servitaxi-pagina-web/
-├── public/               # Archivos estáticos (imágenes, logos)
+├── public/               # Archivos estáticos (imágenes, videos, logos)
 ├── src/
 │   ├── components/       # Componentes reutilizables
 │   │   ├── Header.jsx
 │   │   ├── Footer.jsx
-│   │   ├── NewsCard.jsx     ← NUEVO
-│   │   ├── NewsModal.jsx    ← NUEVO
-│   │   └── ServiceCard.jsx  ← NUEVO
-│   ├── data/            # Datos y constantes ← NUEVO
-│   │   ├── constants.js
-│   │   └── noticias.json
-│   ├── pages/           # Páginas de la aplicación
+│   │   ├── MapSection.jsx
+│   │   ├── ServiceCard.jsx
+│   │   ├── VideoCard.jsx        # Tarjeta de video (ver VIDEOS_README.md)
+│   │   ├── NewsCard.jsx
+│   │   ├── NewsCardCarousel.jsx
+│   │   ├── NewsModal.jsx
+│   │   ├── NewsModalCarousel.jsx
+│   │   └── NewsContent.jsx
+│   ├── data/             # Contenido gestionado por JSON
+│   │   ├── constants.js         # Datos estáticos (contacto, servicios, rutas)
+│   │   ├── noticias.json        # Noticias y comunicados
+│   │   └── videos.json          # Videos promocionales
+│   ├── pages/            # Páginas de la aplicación
 │   │   ├── Home.jsx
-│   │   ├── Noticias.jsx     ← NUEVO
+│   │   ├── Noticias.jsx
 │   │   ├── Quienessomos.jsx
 │   │   ├── Servicios.jsx
-│   │   └── Contactanos.jsx
-│   ├── assets/          # Recursos (fuentes)
-│   ├── App.jsx          # Componente principal
-│   ├── main.jsx         # Punto de entrada
-│   └── index.css        # Estilos globales
-├── NOTICIAS_README.md   # Guía de gestión de noticias ← NUEVO
-├── ANALISIS_MEJORAS.md  # Análisis de buenas prácticas ← NUEVO
+│   │   ├── Contactanos.jsx
+│   │   ├── PoliticaDatos.jsx
+│   │   ├── ProteccionDatos.jsx
+│   │   ├── AvisodePrivacidad.jsx
+│   │   ├── TyCPasajerosApp.jsx
+│   │   ├── TyCTaxbox.jsx
+│   │   └── scrolltop.jsx
+│   ├── utils/
+│   │   └── helpers.js
+│   ├── App.jsx           # Componente principal y rutas
+│   └── main.jsx          # Punto de entrada
+├── NOTICIAS_README.md    # Guía de gestión de noticias
+├── VIDEOS_README.md      # Guía de gestión de videos
 └── README.md
 ```
 
@@ -89,30 +102,11 @@ npm run lint     # Ejecuta el linter
 
 ## 📰 Sistema de Noticias
 
-El proyecto incluye un **sistema completo de gestión de noticias** fácil de usar.
+El proyecto incluye un sistema de noticias gestionado completamente desde `src/data/noticias.json`, sin tocar código de componentes. Para instrucciones detalladas consulta [NOTICIAS_README.md](./NOTICIAS_README.md).
 
-### Cómo agregar una noticia
+## 🎬 Sistema de Videos
 
-1. Abre el archivo `src/data/noticias.json`
-2. Agrega un nuevo objeto siguiendo esta estructura:
-
-```json
-{
-  "id": 4,
-  "titulo": "Tu título aquí",
-  "resumen": "Resumen breve",
-  "contenido": "Contenido completo de la noticia...",
-  "imagen": "/ruta-imagen.jpg",
-  "fecha": "2025-01-27",
-  "autor": "Servitaxi S.A.",
-  "categoria": "Promociones",
-  "destacada": false
-}
-```
-
-3. Coloca las imágenes en la carpeta `public/`
-
-Para más detalles, consulta [NOTICIAS_README.md](./NOTICIAS_README.md)
+Los videos del Home se gestionan desde `src/data/videos.json`. Cada entrada se renderiza automáticamente como una tarjeta de video. Para instrucciones detalladas consulta [VIDEOS_README.md](./VIDEOS_README.md).
 
 ## 🎨 Personalización
 
@@ -150,18 +144,13 @@ El sitio está optimizado para:
 - **WhatsApp**: +57 302 835 9000
 - **Dirección**: Calle 2 #11 - 41, Popayán, Colombia
 
-## 📊 Análisis y Mejoras
-
-Para un análisis detallado de las buenas prácticas implementadas y mejoras realizadas, consulta:
-- [ANALISIS_MEJORAS.md](./ANALISIS_MEJORAS.md)
-
 ## 🤝 Contribución
 
 Este es un proyecto privado de Servitaxi S.A.
 
 ## 📄 Licencia
 
-© 2025 Servitaxi S.A. Todos los derechos reservados.
+© 2026 Servitaxi S.A. Todos los derechos reservados.
 
 ## 👨‍💻 Desarrollador
 
@@ -170,7 +159,3 @@ Desarrollado por [@juancmartinezf](https://www.linkedin.com/in/juan-mart%C3%ADne
 ---
 
 **Transportamos lo más valioso de la ciudad** 🚕💛
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
